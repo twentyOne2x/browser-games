@@ -1,0 +1,26 @@
+Freedoom browser source
+
+Engine: https://github.com/cloudflare/doom-wasm
+Pinned commit: 65e0d3ae2ffa604155eebd96ed40da6567bd08f4
+Engine licence: GNU GPL version 2. See GPL-2.0.txt.
+Original contributors and notices are retained in upstream/.
+
+Emscripten SDK: https://github.com/emscripten-core/emsdk
+SDK commit: 35ff8a6d150541276abbc6bae512ca90bcfbe220
+Compiler release: 3.1.64, MIT.
+
+Patches:
+- CMakeLists.txt and config.h: build existing Doom sources with Emscripten, SDL2 and SDL2_mixer, excluding external network transports.
+- upstream/src/d_loop.c, net_dedicated.c, net_query.c and net_server.c: remove WebSocket includes, registration and remote address resolution.
+- upstream/src/doomtype.h: keep a consistent four byte C boolean ABI.
+- upstream/src/i_video.c: disable SDL relative mouse mode, use page-fed input without the SDL focus gate, count actual rendered frames, resize the backing buffer and retain the page's Freedoom title.
+- upstream/src/doom/d_main.c: expose the existing opening transition flag so the state reader reports readiness after the first playable render.
+- upstream/src/m_controls.c: W and S move, A and D strafe.
+- upstream/src/doom/g_game.c: remove fullscreen action and expose existing next-weapon selection.
+- upstream/src/doom/m_menu.c: make information inert, return to START on quit, expose menu close for new game.
+- upstream/src/doom/p_pspr.c: count accepted fire actions after the engine checks ammunition.
+- browser_bridge.c: post real key and accumulated mouse events, read engine state and menu status, pause, stop residual movement on key release and start level one.
+- scripts/sanitize-runtime.mjs: disable generated capture, fullscreen and modal helpers in the pinned runtime.
+- web/: static loader, primary-button drag controls, fire, key release and pause lifecycle.
+
+Corresponding source is in source.tar.gz beside this notice, including the patched engine, build scripts and proof harness. The local repo.bundle contains the same owned source history. Freedoom data is distributed separately under its own licence. No other WAD is used. The pinned build dependencies and their licences are recorded in DEPENDENCIES.md.

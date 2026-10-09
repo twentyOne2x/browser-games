@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>const GAME_NAME = 'Freedoom'; document.title = GAME_NAME;</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<link rel="icon" href="legal/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="stage">
+  <canvas id="canvas" width="640" height="480" tabindex="0" aria-label="Freedoom"></canvas>
+  <section id="start-screen">
+    <h1 id="game-name"></h1>
+    <progress id="loading" value="0" max="1" aria-label="Loading"></progress>
+    <button id="start" disabled>LOADING</button>
+    <p id="start-hint">Hold and drag to look. WASD moves. F fires. E uses.</p>
+    <a id="legal" href="legal/index.html">Licence and source</a>
+  </section>
+  <section id="pause-screen" hidden><button id="resume">PAUSED</button></section>
+  <p id="hint" hidden>Hold and drag to look. WASD moves. F fires. E uses.</p>
+  <p id="status" role="status" hidden></p>
+  <div id="touch-controls" hidden>
+    <div id="stick" role="region" aria-label="Move"><span id="stick-thumb"></span></div>
+    <button id="touch-fire">FIRE</button>
+    <button id="touch-use">USE</button>
+    <button id="touch-next">NEXT WEAPON</button>
+    <button id="touch-menu">MENU</button>
+  </div>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
