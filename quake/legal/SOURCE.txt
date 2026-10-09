@@ -1,0 +1,29 @@
+Upstream URL: https://github.com/Triang3l/WebQuake
+Pinned commit: 917617ffdfe42fa9dca41bf1762f16a2e71f2d7b
+Licence: GNU GPL version 2. See legal/GNU.md.
+Quake engine and game by id Software. WebQuake port by Triang3l.
+Browser changes dated 2026-10-09. GPL version 2. No warranty.
+All shipped JavaScript is the corresponding source code, with no build step.
+Original upstream Client files are preserved byte for byte in upstream/Client in the local source bundle. Changes are recorded in patches/webquake.patch.
+
+Patches, added and removed lines:
+WebQuake/CL.js: remove remote console HTTP requests; +2 -47
+WebQuake/COM.js: memory pack reads and safe storage; +12 -93
+WebQuake/Host.js: direct first level startup; +2 -1
+WebQuake/IN.js: captured mouse deltas and analog touch movement through existing input; +9 -69
+WebQuake/M.js: safe storage, inert unavailable entries and quit returns to START; +10 -134
+WebQuake/NET.js: local transport only; +2 -1
+WebQuake/NET_WEBS.js: omit external transport; +0 -119
+WebQuake/PR.js: engine-owned accepted fire count; +3 -0
+WebQuake/S.js: current Web Audio PCM and playback API; +27 -32
+WebQuake/SCR.js: 4:3 letterbox, resize and DPR cap; +5 -8
+WebQuake/Sys.js: sandbox-safe frame and lifecycle glue; +15 -209
+index.html: relative static entry point with original shaders; +24 -101
+game.js: browser controls, loading, lifecycle, safe storage and read-only proof reader; +226 -0
+style.css: letterbox and touch controls; +4 -0
+legal/index.html: local terms and source navigation; +1 -0
+legal/: original archive text files, unchanged GPL text and source information.
+Game data is original id1/pak0.pak from quake106.zip, kept byte for byte unchanged. The data licence is separate from the GPL code licence.
+Delivered data is id1/pak0.pak.gz, made with gzip -9 -n. The original pak bytes are unchanged and are verified with crypto.subtle before START. The loader uses native DecompressionStream or vendor/gunzip.min.js.
+Gzip fallback: imaya/zlib.js 0.3.1, commit 5bad1e7caf536fc48fb2ca024359587bd59996c9, MIT. Upstream URL: https://github.com/imaya/zlib.js
+The unmodified bin/gunzip.min.js is shipped as vendor/gunzip.min.js; its licence is legal/zlib-license.txt. SHA256 497ebe27be7ea1833551745e105661470c8bf1a45124935e32cdb5901bc81403.

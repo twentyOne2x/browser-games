@@ -1,0 +1,5 @@
+pak0.pak.gz is the gzip of the unmodified pak0.pak from quake106.zip.
+Archive SHA256: ec6c9d34b1ae0252ac0066045b6611a7919c2a0d78a3a66d9387a8f597553239
+Uncompressed pak: 18689235 bytes.
+Uncompressed pak SHA256: 35a9c55e5e5a284a159ad2a62e0e8def23d829561fe2f54eb402dbc0a9a946af
+Gzip made with gzip -9 -n. The terms are in slicnse.txt beside this file.
