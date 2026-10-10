@@ -1,0 +1,42 @@
+Doom shareware browser source
+
+Page source: https://github.com/twentyone2x/browser-games
+Pinned page commit: c8b31bcf5e5ad889f955b645dab125836cbba80c
+Reused folder: doom/
+Engine: https://github.com/cloudflare/doom-wasm
+Pinned engine commit: 65e0d3ae2ffa604155eebd96ed40da6567bd08f4
+Engine licence: GNU GPL version 2. See GPL-2.0.txt and ENGINE-COPYING.txt.
+Original authors and notices remain in original-engine-source.tgz/upstream/.
+Emscripten SDK: https://github.com/emscripten-core/emsdk
+SDK commit: 35ff8a6d150541276abbc6bae512ca90bcfbe220
+Compiler release: 3.1.64. No engine rebuild was needed for this page.
+
+The reused binary already includes our drag turning, touch input bridge,
+no pointer lock, no fullscreen/dialog helpers, single thread local play,
+state observation, resize, pause and new-game patches. The original
+SOURCE.txt and browser.patch in original-engine-source.tgz list every
+inherited engine/build patch, and include corresponding source and SDL dependencies.
+
+Web-only patches for this page, in source.tgz/patches/shareware-frame.patch:
+- web/game.js: load unchanged DOOM1.WAD, isolate sensitivity storage,
+  expose menu-aware keys, space and punctuation through a paginated touch drawer,
+  add reverse weapon cycling/sensitivity and release every held text key,
+  keep the touch drawer outside drag handling, supply integer 4:3 video dimensions
+  before native video creation, and bound/cancel the readiness resize wait.
+- web/index.html: Doom shareware title, persistent legal link and KEYS drawer.
+- web/style.css: persistent legal link and compact responsive touch drawer.
+Other supplied sources are exact files in source.tgz, separate from that patch:
+- legal/: preserve publisher files and engine notices; replace Freedoom data credits
+  with Doom shareware provenance and engine credits.
+- proof/: remove machine/spawn assumptions, require own origin requests and
+  zero dialogs, prove native touch menu actions and retain negative mutations;
+  sample first native readiness and backing size atomically at DPR 3 with trusted
+  touch, and exercise false-readiness timeout, cancellation and recovery.
+No engine or game-data bytes were changed. Runtime JS and WASM retain their
+original filenames freedoom.js and freedoom.wasm to make reuse explicit.
+
+Corresponding source is provided by both archives in this directory:
+original-engine-source.tgz is the unchanged source archive from the pinned page;
+source.tgz provides this page's wrapper, patches, proof, notices and hosting docs.
+The delivered repo.bundle provides branch main, including engine sources.
+The upstream address is provenance text, not an external runtime request or link.
