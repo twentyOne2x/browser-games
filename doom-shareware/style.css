@@ -1,0 +1,36 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101211; color: #eee; }
+* { box-sizing: border-box; }
+html, body, #stage { margin: 0; width: 100%; height: 100%; overflow: hidden; touch-action: none; overscroll-behavior: none; }
+#stage { position: relative; display: grid; place-items: center; }
+canvas { display: block; outline: none; image-rendering: pixelated; touch-action: none; }
+canvas.dragging { cursor: none; }
+section { position: absolute; inset: 0; background: #101211; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+[hidden] { display: none !important; }
+h1 { margin: 0; font-size: clamp(28px, 8vw, 64px); font-weight: 600; letter-spacing: .04em; }
+button { font: inherit; font-weight: 600; padding: 14px 34px; border: 1px solid #9ab987; border-radius: 5px; background: #20391a; color: #f6fff2; cursor: pointer; touch-action: none; }
+button:disabled { opacity: .6; cursor: default; }
+progress { width: min(240px, 70vw); height: 6px; accent-color: #a2c18f; }
+p { margin: 0; font-size: 12px; text-align: center; line-height: 1.5; }
+#legal { position: absolute; z-index: 5; left: max(10px, env(safe-area-inset-left)); top: max(8px, env(safe-area-inset-top)); font-size: 10px; color: #b7beb2; padding: 4px; background: #101211cc; }
+#pause-screen { background: #101211c9; }
+#hint { position: absolute; left: 12px; right: 12px; top: 12px; padding: 6px; background: #111b; pointer-events: none; transition: opacity .5s; }
+#hint.faded { opacity: 0; }
+#status { position: absolute; bottom: 12px; left: 12px; right: 12px; padding: 8px; background: #111d; pointer-events: none; }
+#touch-controls { position: absolute; inset: 0; pointer-events: none; }
+#touch-controls button, #stick { pointer-events: auto; touch-action: none; user-select: none; -webkit-user-select: none; }
+#touch-controls button { position: absolute; padding: 8px; background: #142010c9; border-color: #b4c3a4a0; font-size: 11px; }
+#stick { position: absolute; bottom: max(18px, env(safe-area-inset-bottom)); left: max(16px, env(safe-area-inset-left)); width: 112px; height: 112px; border: 1px solid #bac6b180; border-radius: 50%; background: #121b11a8; display: grid; place-items: center; }
+#stick-thumb { display: block; width: 36px; height: 36px; border-radius: 50%; background: #d4decbb0; pointer-events: none; }
+#touch-fire { right: max(18px, env(safe-area-inset-right)); bottom: max(18px, env(safe-area-inset-bottom)); width: 90px; height: 90px; border-radius: 50%; font-size: 16px !important; }
+#touch-use { right: max(26px, env(safe-area-inset-right)); bottom: calc(max(18px, env(safe-area-inset-bottom)) + 104px); width: 74px; height: 48px; }
+#touch-next { right: calc(max(18px, env(safe-area-inset-right)) + 106px); bottom: max(18px, env(safe-area-inset-bottom)); width: 100px; height: 50px; }
+#touch-menu { top: max(12px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); width: 70px; height: 44px; }
+@media (max-height: 320px) { #stick { width: 88px; height: 88px; } #touch-fire { width: 76px; height: 76px; } #touch-use { bottom: 106px; height: 40px; } }
+#touch-keys { position: absolute; z-index: 4; top: 38px; left: 12px; right: 12px; pointer-events: none; }
+#touch-keys summary { width: fit-content; padding: 8px; background: #142010ed; border: 1px solid #b4c3a4a0; font-size: 11px; cursor: pointer; pointer-events: auto; }
+#touch-key-buttons { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 4px; margin-top: 4px; padding: 4px; background: #101211ed; pointer-events: auto; }
+#touch-key-buttons button { position: static; min-height: 36px; font-size: 10px; padding: 4px; }
+#touch-key-pages { display: flex; align-items: center; justify-content: space-between; background: #101211ed; pointer-events: auto; font-size: 12px; }
+#touch-key-pages button { position: static; min-height: 30px; padding: 4px; }
+@media (max-height: 320px) { section { gap: 8px; } h1 { font-size: 28px; } #start-hint { max-width: 270px; } }
+@media (max-height: 320px) { #touch-key-buttons button { min-height: 26px; font-size: 9px; } #touch-key-pages button { min-height: 26px; } }
