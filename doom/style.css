@@ -18,7 +18,7 @@ p { margin: 0; font-size: 12px; text-align: center; line-height: 1.5; }
 #status { position: absolute; bottom: 12px; left: 12px; right: 12px; padding: 8px; background: #111d; pointer-events: none; }
 #touch-controls { position: absolute; inset: 0; pointer-events: none; }
 #touch-controls button, #stick { pointer-events: auto; touch-action: none; user-select: none; -webkit-user-select: none; }
-#touch-controls button { position: absolute; padding: 8px; background: #142010c9; border-color: #b4c3a4a0; font-size: 11px; }
+#touch-controls button { position: absolute; padding: 8px; background: #142010c9; border-color: #b4c3a4a0; font-size: 12px; min-width: 44px; min-height: 44px; }
 #stick { position: absolute; bottom: max(18px, env(safe-area-inset-bottom)); left: max(16px, env(safe-area-inset-left)); width: 112px; height: 112px; border: 1px solid #bac6b180; border-radius: 50%; background: #121b11a8; display: grid; place-items: center; }
 #stick-thumb { display: block; width: 36px; height: 36px; border-radius: 50%; background: #d4decbb0; pointer-events: none; }
 #touch-fire { right: max(18px, env(safe-area-inset-right)); bottom: max(18px, env(safe-area-inset-bottom)); width: 90px; height: 90px; border-radius: 50%; font-size: 16px !important; }
