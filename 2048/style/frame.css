@@ -1,0 +1,32 @@
+html, body { width: 100%; height: 100%; overflow: hidden; overscroll-behavior: none; }
+body { margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; touch-action: none; }
+button { font: inherit; border: 0; cursor: pointer; color: inherit; }
+.container { width: auto; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.controls { width: var(--board-size); }
+.heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.heading:after, .above-game:after { display: none; }
+h1.title { float: none; font-size: 40px; margin: 0; }
+.scores-container { display: flex; gap: 4px; float: none; }
+.score-container, .best-container { margin: 0; padding: 12px 8px 8px; min-width: 28px; flex-shrink: 0; font-size: 20px; height: 25px; line-height: 34px; }
+.score-container:after, .best-container:after { top: 5px; font-size: 11px; }
+.above-game { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.game-intro { float: none; font-size: 14px; line-height: 1.4; }
+.restart-button { float: none; flex: 0 0 auto; padding: 0 12px; height: 44px; line-height: 44px; font-size: 15px; }
+.board-shell { width: var(--board-size); height: var(--board-size); }
+.game-container { margin: 0; transform: scale(var(--board-scale)); transform-origin: top left; }
+.landscape { flex-direction: row; gap: 16px; }
+.landscape .heading, .landscape .above-game { flex-direction: column; }
+.landscape .scores-container { max-width: 100%; flex-wrap: wrap; justify-content: center; }
+.landscape .game-intro { margin-bottom: 0; }
+.landscape .restart-button { width: 100%; }
+.legal-link { position: fixed; right: 4px; bottom: 0; font-size: 11px; line-height: 24px; padding: 0 6px; }
+.game-container .game-message.game-won, .game-container .game-message.game-over { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: calc(12px / var(--board-scale)); }
+.game-container .game-message p { margin: 0; font-size: calc(28px / var(--board-scale)); height: auto; line-height: 1.2; }
+.game-container .game-message .lower { margin: 0; display: flex; gap: calc(6px / var(--board-scale)); }
+.game-container .game-message button { margin: 0; padding: 0 calc(8px / var(--board-scale)); font-size: calc(13px / var(--board-scale)); height: calc(45px / var(--board-scale)); line-height: normal; }
+.game-container:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid #776e65; outline-offset: 2px; }
+@media (max-height: 300px) and (orientation: landscape) {
+  h1.title { font-size: 32px; line-height: 1; }
+  .game-intro { font-size: 12px; line-height: 1.3; }
+  .above-game { gap: 6px; margin-top: 6px; }
+}
