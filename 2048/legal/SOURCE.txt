@@ -1,0 +1,26 @@
+2048
+Upstream: https://github.com/gabrielecirulli/2048
+Pinned commit: 478b6ec346e3787f589e4af751378d06ded4cbbc
+Pinned Git tree: 693fbb47db2d71aa65cc0e566a288473970233e6
+
+Patches against that source:
+1. index.html: remove external links, official-site claims, app metadata and
+   promotional copy. Keep the title, scores, introduction, board and controls.
+   Use native buttons, a board wrapper and a same-frame legal/ corner link.
+2. style/main.css: disable the old fixed-width mobile rules. Match the message
+   selectors to native buttons. Colors, board coordinates and animations stay.
+3. js/local_storage_manager.js: keep current game state in memory. Persist only
+   the best score, with try/catch on every storage access and memory fallback.
+4. js/keyboard_input_manager.js: mark swipe listeners non-passive and bind each
+   native button once through click, including touchscreen synthesized clicks.
+   Ignore button-origin touches in swipe handlers so native clicks can fire.
+5. Added style/frame.css and js/frame.js: fit the original square DOM board to
+   the viewport, keep controls usable, suppress scrolling and follow resize
+   and local font loading. Compact text keeps controls inside short frames.
+   No canvas, pixel buffer or device-pixel-ratio-dependent allocation is used.
+6. style/fonts/clear-sans.css: use only the original local WOFF fonts. Omit
+   obsolete EOT and SVG copies, startup images and unused source styles.
+7. Added legal notices and attribution. Added a local-resource CSP to the page.
+
+The game manager, grid, tile, HTML actuator and polyfills are unchanged.
+No new engine, rules, gameplay controls, tracking or remote services are added.
