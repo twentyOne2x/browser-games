@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>OpenArena</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="canvas" tabindex="0" aria-label="OpenArena game"></canvas>
+<section id="start-screen"><h1>OpenArena</h1><p>Arena skirmish against bots</p>
+<button id="start">START</button><p id="status" role="status"></p>
+<p class="hint">WASD to move. Hold and drag to look. F to fire. Space to jump. E to switch weapon.</p></section>
+<div id="controls" aria-label="Game controls" hidden>
+<div id="look" aria-label="Drag to look"></div>
+<div id="move" role="group" aria-label="Move"><span></span></div>
+<button id="fire">FIRE</button><button id="jump">JUMP</button><button id="weapon">WEAPON</button>
+<button id="arena">NEXT ARENA</button></div>
+<a id="legal-link" href="legal/">Licence and source</a>
+<script type="module" src="frame.js"></script></body></html>
