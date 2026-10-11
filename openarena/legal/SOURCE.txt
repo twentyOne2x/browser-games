@@ -1,0 +1,148 @@
+PLAY-HOST-OPENARENA-2 source record
+
+ENGINE
+Upstream: https://github.com/ioquake/ioq3
+Pinned commit: 83a776283bdb958f82db25554b5ed0966aaf6e49
+Licence: GNU GPL version 2; preserve COPYING.txt, id-readme.txt and dependency notices.
+Source artifact: engine-source.tgz
+Build script: build-engine.sh in the lane source repository.
+Build tools: lane-local Emscripten 3.1.58 and CMake. No global installation is required.
+Build inputs: Release, PRODUCT_VERSION=1.36_g83a7762,
+  BUILD_STANDALONE=ON, BUILD_GAME_QVMS=OFF,
+  USE_OPENAL=OFF, USE_CODEC_OPUS=OFF, USE_VOIP=OFF, USE_MUMBLE=OFF.
+Engine patches in engine.patch:
+  All five modified files carry prominent browser-build notices at their top.
+  First change date: 2026-10-11. Notice and fix change date: 2026-10-11.
+  cmake/platforms/emscripten.cmake: WebGL 1 ceiling, memory growth and UTF8ToString export.
+  code/client/cl_main.c: bounded key, mouse-delta, resize and fixed-map bridge;
+    snapshot position, view angle, ammo, event and bot-state reporting for proof.
+  code/sdl/sdl_input.c: do not activate relative mouse input in the web build.
+  code/server/sv_bot.c: report actual active local engine bot clients.
+  code/sys/sys_main.c: abort SDL assertions with stderr output instead of a browser prompt.
+The page shell supplies drag look, keyboard and touch actions, canvas resizing,
+  one-tap start, relative data loading and ArrayBuffer WebAssembly instantiation.
+  The 2026-10-11 fix preserves native Tab and focused Enter/Space activation
+  while isolating SDL events and forwarding gameplay keys only from the canvas.
+No engine was rewritten. Original source licence and credits remain intact.
+
+GAME CODE FOR RELEASE QVMS
+Official repository: https://github.com/OpenArena/legacy
+Pinned commit: 3db79b091ce1d950d9cdcac0445a2134f49a6fc7
+Preferred source tree: game_code/oa-0.8.8/
+Source artifact: gamecode-source.tgz, including original build scripts and notices.
+The official repository identifies this tree as the archived 0.8.8 release code.
+Original archive named by its README:
+  http://files.poulsander.com/~poul19/public_files/oa/dev088/oa-0.8.8.tar.bz2
+Original archive MD5: 5a55bb7660a711949a69a2bc40fdc11b
+Original archive SHA1: 6bb139e469ae00e37decaefb5e2bced070f8b04e
+Original archive SHA512:
+  517517ea8d8377a6d91d957faf0a55690815b01d8f3e8b1e4a3e6be64750968a6074d26499e707fe2ec5fa7d630ceec022fdc879fdebcbfebbcff8195dd03e2f
+The retained release QVM bytes are not rebuilt or modified by this adaptation.
+
+ORIGINAL GAME DATA
+Version: OpenArena 0.8.8
+Official release page: https://openarena.ws/download.php?view.4=
+Official release mirror:
+  https://download.tuxfamily.org/openarena/rel/088/openarena-0.8.8.zip
+Official forum mirror reference: https://openarena.ws/board/index.php?topic=4452.0
+Named alternative:
+  https://sourceforge.net/projects/oarena/files/openarena-0.8.8.zip/download
+Release archive SHA256:
+  5a8faf7f5b51f351b0a1618c06b6b98a5f1a6758f1d39818de2c87df2a0bac4a
+Official release archive MD5: 9f353d96d7889c377349d692c3905e5b
+Release licence notice in readme_088.txt:
+  The program and data are licensed under the GNU GPL v2. See the file 'COPYING' for details.
+readme_088.txt SHA256:
+  21fa298fe95c25af25edb40f56b131f0c40df2ba0cda3ba47f9ddddddac90570
+COPYING SHA256:
+  32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670
+CREDITS SHA256:
+  6de6f21502e192cfb2724cea64e98c7d84cd9cdecd1abe6ba508f72cb260a3e6
+Retained files are selected from the release PK3 files without changing their bytes.
+Maps: oa_dm1, aggressor and oa_minia. Local bots use the Sarge player model.
+Every retained file's release member, size, SHA256 and licence sentence is in DATA.json.
+The original notices remain in play.pk3 and the legal folder.
+
+PUBLISHED MEDIA PREFERRED SOURCE
+Official source policy: https://openarena.ws/page.php?14=
+Official media policy: https://openarena.ws/about.html
+Immutable source root: https://openarena.ws/svn/!svn/bc/951/
+Source revision: 951
+Source artifact: media-source.tgz
+The archive MANIFEST.json records each exact pinned URL, byte size and SHA256.
+The 2026-10-11 catalogue fix labels the five preserved GPL licence documents
+by version and their verbatim-document copying grant. Their bytes are unchanged.
+Editable source selection is recorded by source-download.py against DATA.json.
+Map preferred sources:
+  source/assets/maps/oa_dm1.map
+  source/assets/maps/oa_dm1v2.map
+  source/assets/maps/aggressor.map
+  source/assets/maps/oa_minia.map
+Both dm1 variants are included because the release does not independently identify
+  which one generated the distributed BSP. No claim is made of a bit-identical rebuild.
+Sarge/Grism published animation sources:
+  source/assets/models/grism/reanimate5.blend
+  source/assets/models/grism/reanimate6.blend
+Original editable Sarge geometry:
+  models/players/sarge/grism.obj inside baseoa/play.pk3
+Additional retained models use the published weapon, pickup, projectile and gib
+  sources under source/assets/models/. Layered texture sources are under
+  source/assets/textures/. Original flat TGA/JPG/PNG and WAV/OGG media are
+  retained in play.pk3; tracker and layered sound sources supplement them.
+This revision supplies project-published associated sources. Source-to-binary
+  identity for individual maps and model exports has not been reproduced.
+
+PAGE SHELL REUSE AND NEW WORK
+Sibling template: https://github.com/twentyone2x/browser-games
+Reference commit: 833bdd9d84fc578f7a695e34a35e5588aa1639f4
+Reused approach: static game page, relative assets, legal corner link and sandbox proof.
+New lane files: page shell and controls, the listed engine bridge patches,
+  selected-data repacker, source-selection planner, legal catalogue and proof harness.
+The lane source repository contains the exact patches and rerunnable commands.
+
+
+SOURCE VERIFICATION
+Banner5 menu logo source: source/assets/models/newoalogo/logo2.blend.
+The pinned Blender source contains halo, emblem and title names matching the
+retained MD3 surfaces. Source-to-binary rebuild identity is not claimed.
+All listed source artifacts are present on the same static origin.
+
+BUILD TOOL RECEIPTS
+emsdk manager commit: 526ceebf902920582fc6979fcb65c50f1648aaeb (tag 4.0.16).
+Final SDK: 3.1.58, release a4d4afb626c5010f6ccda4638b8d77579a63782e.
+Emscripten source commit: a41843e0860e52c948c1fce20307933c6631c800.
+CMake: 4.0.3 official macOS universal release.
+Node build tool: 22.16.0. Python build tool: 3.13.3.
+7a9a15845257629b7602d15bdf7633a8e10472b0fa9b3d9ee7149938aa2f2039  tool-downloads/emscripten-3.1.58-arm64.tar.xz
+f8d06789195f0c3b07d7f241b11f2aed9099f3e3ba69dd0fb85a93b9edcfec45  tool-downloads/emscripten-4.0.16-arm64.tar.xz
+1d7f34ec4c03e12d8b33481e5c4560432d7dc31a0ef3ff5a4d9a8ada7cf6ecc9  tool-downloads/node-22.16.0.tgz
+2b0899d7ade9463b0c909ef23aeea27546a4f412637998d817a49718bc2bac19  tool-downloads/python-3.13.3.tgz
+078183c0603cf59f4a97435284e347fff3ec615635d028cc19deea587ebff31d  emsdk/upstream/emscripten/cache/ports/sdl2.28.4.zip
+f5b9466074d9b404e818741ba9c44788036632d7ec5a22928f325ff301bb3919  emsdk/upstream/bin/clang
+4587969c9d6a40357366b50d85a66f079c474cdee1af95874736e52ce52fd8cd  emsdk/upstream/bin/wasm-opt
+b0c9551f9155fa9c028efa24591acdfd30f02f32fb247cf9266f5f0f2ede7589  emsdk/upstream/emscripten/emcc
+d1f052c7f037c4b19bcda9f184fac647ecec2cd6ba7ec983dd1873022144547f  cmake-4.0.3-macos-universal/CMake.app/Contents/bin/cmake
+
+SDL runtime build source: https://github.com/libsdl-org/SDL/archive/refs/tags/release-2.28.4.zip
+SDL runtime source archive SHA256: 078183c0603cf59f4a97435284e347fff3ec615635d028cc19deea587ebff31d
+CMake release URL: https://github.com/Kitware/CMake/releases/download/v4.0.3/cmake-4.0.3-macos-universal.tar.gz
+CMake release SHA256: 4e85de4daf1c3e82d7dc6b8ba5683972944b466343aeb9c327a742437bb3ce9a
+The original flat media and textual game data are their directly editable forms.
+The adjacent media archive supplies the project-published associated layered
+images, editable maps and model scenes. No bit-identical media rebuild is claimed.
+
+STARTING LOADOUT
+The page sets native g_elimination=1 to provide finite-ammo weapons at spawn.
+The original OpenArena game QVMs and weapon-cycle logic are unchanged.
+
+DELIVERED SOURCE ARTIFACT HASHES
+e3fb2616b5f4cd03edd1b0f677f937221c36c2b25c6702d87486894ff902d37d  engine-source.tgz (16083353 bytes)
+aa4ba0937401fdf233117eadb4b6c234b71d392d99acbbb985ec1909cbcf62c0  gamecode-source.tgz (1105464 bytes)
+861693fb64e3f9381b9922223f1df1c9f136f3cae9957d14b552c3453bb7aab8  media-source.tgz (74456709 bytes)
+
+CORRECTED ENGINE BUILD
+The five notices are comment-only. Same-path builds with and without the notices
+produced byte-identical WASM and JavaScript. Source archive hashes are not compiler
+inputs. This delivery includes a fresh pinned build from the corrected source.
+39b3ae0e0d498ad6a07595607f9e506b40fc789d0823e3f32adfb9b5c2856ae0  ../ioquake3.wasm (2007109 bytes)
+e3ef54cae002e408bcc8e6c517227feb08480595aca7696d844043d2f5ed86e6  ../ioquake3.js (211844 bytes)
