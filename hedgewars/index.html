@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self'; connect-src 'self'; worker-src 'none'; object-src 'none'">
+<link rel="icon" href="favicon.png"><link rel="stylesheet" href="style.css"><title>Hedgewars</title>
+</head><body>
+<canvas id="canvas" width="1024" height="768" tabindex="0" aria-hidden="true"></canvas>
+<canvas id="board" aria-label="Hedgewars game"></canvas>
+<section id="menu"><h1>Hedgewars</h1><p>Two teams. One device. Take turns.</p>
+<label>Map <select id="map"><option>Castle</option><option>Mushrooms</option></select></label>
+<p id="status" role="status">Loading game...</p><button id="start" disabled>START HOTSEAT</button>
+<p>Arrows to walk and aim. Space to charge and shoot.<br>Right click for weapons. Enter to jump.</p></section>
+<nav id="rail"><button id="more">Controls</button><button id="restart">New game</button><a href="legal/">Legal</a></nav>
+<div id="touch" aria-label="Game controls">
+<button data-key="ArrowLeft">Left</button><button data-key="ArrowRight">Right</button>
+<button data-key="ArrowUp">Aim up</button><button data-key="ArrowDown">Aim down</button>
+<button data-key="Enter">Jump</button><button data-key="Space">Fire</button>
+<button data-mouse="2">Weapons</button><button data-key="KeyP">Pause</button>
+</div>
+<section id="controls" hidden><h2>All controls</h2><p>Hold movement, aim, fire and modifiers. Tap the board to set a target or select a weapon. Drag to move the camera.</p>
+<div id="extra"></div><button id="close">Back to game</button></section>
+<script src="frame.js"></script></body></html>

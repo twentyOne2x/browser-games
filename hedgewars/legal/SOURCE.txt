@@ -1,0 +1,51 @@
+Hedgewars for the Play static sandbox frame
+Ticket: PLAY-HOST-HEDGEWARS-1
+Owner: play-host-hedgewars-1-hz
+Fix round: PLAY-HOST-HEDGEWARS-2
+Fix owner and checkout: play-host-hedgewars-2-mac, local main atop 285f65d8
+
+Official project: https://hedgewars.org/
+Official source mirror: https://github.com/hedgewars/hw
+Official browser-port announcement: https://www.hedgewars.org/node/9500
+Port source: https://github.com/apmlabs/webwars
+Port/data pin: 406e53fde3cd811f15ca4cc5ff0909e69f58e276
+Engine source pin: 2269ab1eab930b496b6ceb69ce65be5f30b0545d
+Compiled hwengine.wasm SHA256: 7e14ace098eb87e3a6d76d0194199045fbc3c2bb5db6a671a743e156c49e65a0
+Compiler Emscripten 4.0.13, Rust 1.97.1, locked Cargo closure and tool ports.
+Compile command: python3 host/compile.py; package command: python3 host/build.py
+Host adaptations dated 2026-10-11.
+Template source: https://github.com/twentyOne2x/browser-games
+Template pin: 48069ee23afa3f5265a7b062993ab544077de6be
+
+Patches and additions, all GPL-2.0:
+1. host/build.py adapts freshly compiled generated runtime, removes monolithic loader
+   and old UI, rejects pointer lock/fullscreen imports, removes native prompt,
+   omits credentials, caps DPR and uses ArrayBuffer WASM instantiation.
+2. host/bridge.js reuses local IPC setup with two hotseat teams and selected maps.
+   Removes network matchmaking/session storage and loads only the explicit data.
+3. host/frame.js, index.html and style.css implement a responsive canvas, START,
+   relative legal navigation, direct SDL touch inputs and supported local controls.
+   Fix round 2 removes unsupported Capture/Record, suppresses C/R and enlarges
+   existing touch targets. Engine, compiled runtime and game data are unchanged.
+4. host/PlayObserver.lua reads real engine state for proof; no gameplay mutation.
+5. host/rgba.mjs converts three paletted PNGs to RGBA with identical pixel values.
+6. Nature/theme.cfg removes the music line. Unverified recordings are excluded; their virtual paths alias existing free effects.
+7. The old required wqy-zenhei.ttc path aliases unchanged DejaVuSans-Bold.ttf bytes.
+8. host/legal.py generates original notices, per-file ledger and source packages.
+9. proof/run.sh and proof/check.mjs run the required static-frame and mutation proof.
+10. host/deliver.py archives the exact-head passing site, source bundle and proof,
+    splits transport parts at 24 MB, and writes sizes and checksum receipts.
+
+No engine C/Pascal/Rust or physics patch. host/compile.py adds a missing Lua header
+through a compiler include flag and compiles the upstream generated C directly. No service worker, threads, payments, account,
+analytics, external requests, browser persistence or multiplayer transport.
+Licence texts and copyright/credit notices are preserved under legal/.
+engine-source.tgz includes the pinned engine source and compilation scripts.
+data-source.tgz contains the exact selected originals and editable companions.
+host-source.tgz contains the frame/package patches and locked npm utilities.
+dependency-source.tgz preserves locked Rust crates and actual SDK tool-port
+source, SDK runtime/headers and matching Rust standard-library source with its
+separate locked closure and original notices. DEPENDENCIES.json records the build inputs.
+TOOLS.json records tool source pins and distribution hashes.
+DATA.md and DATA.json bind every selected data file to its source and hashes.
+README-HOST.md explains reproduction, upload and browser requirements.
