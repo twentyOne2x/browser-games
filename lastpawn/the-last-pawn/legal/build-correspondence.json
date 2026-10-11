@@ -1,0 +1,13 @@
+{
+  "source_commit": "13ac4dab9393f9e6088deba09bdb7c63e9fb95ad",
+  "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+  "local_build_js_sha256": "281bb620bd540dac8e15cb9765d3ba5d824fed651e3799670e5bab2b1c366f90",
+  "author_js_sha256": "b817dd3aafa9949f4264b169f6092355cc70541685a830be3a22b2af679bdbcc",
+  "normalized_bytes_equal": true,
+  "only_differences": {
+    "\"color-interpolation-filters\"": "colorInterpolationFilters",
+    "\"flood-opacity\"": "floodOpacity"
+  },
+  "scope": "three Logo.jsx filters only",
+  "reason": "Author deployment predates pinned Logo.jsx attribute spelling fix. All other emitted bytes agree."
+}

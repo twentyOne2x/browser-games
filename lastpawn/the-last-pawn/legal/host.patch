@@ -1,0 +1,37 @@
+--- author/index.html
++++ host/index.html
+@@ -10,19 +10,24 @@
+     />
+     <meta name="author" content="Gabriel Edradan" />
+ 
+-    <link rel="icon" type="image/png" sizes="16x16" href="/the-last-pawn/favicon-16x16.png" />
+-    <link rel="icon" type="image/png" sizes="32x32" href="/the-last-pawn/favicon-32x32.png" />
+-    <link rel="icon" type="image/png" sizes="48x48" href="/the-last-pawn/favicon-48x48.png" />
+-    <link rel="icon" type="image/png" sizes="64x64" href="/the-last-pawn/favicon-64x64.png" />
+-    <link rel="icon" type="image/png" sizes="96x96" href="/the-last-pawn/favicon-96x96.png" />
+-    <link rel="apple-touch-icon" sizes="180x180" href="/the-last-pawn/apple-touch-icon.png" />
++    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
++    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
++    <link rel="icon" type="image/png" sizes="48x48" href="./favicon-48x48.png" />
++    <link rel="icon" type="image/png" sizes="64x64" href="./favicon-64x64.png" />
++    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png" />
++    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+ 
++    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; worker-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
++    <script src="frame.js"></script>
+     <title>The Last Pawn</title>
+-    <script type="module" crossorigin src="/the-last-pawn/assets/index-CqnDThAh.js"></script>
+-    <link rel="stylesheet" crossorigin href="/the-last-pawn/assets/index-B24FUZXh.css">
++    <script type="module" crossorigin src="./assets/index-CqnDThAh.js"></script>
++    <link rel="stylesheet" crossorigin href="./assets/index-B24FUZXh.css">
++  <link rel="stylesheet" href="frame.css">
+   </head>
+   <body>
+     <div id="root"></div>
+ 
++  <nav id="frame-controls" aria-label="Game controls" hidden></nav>
++    <a class="legal-link" href="legal/">Legal</a>
+   </body>
+ </html>
+
+CSS patch: replace every /the-last-pawn/fonts/ with ../fonts/. No other stylesheet bytes change.
