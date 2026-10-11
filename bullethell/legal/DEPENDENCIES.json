@@ -1,0 +1,79 @@
+[
+  {
+    "name": "base64-js",
+    "version": "0.0.8",
+    "source": "https://registry.npmjs.org/base64-js/-/base64-js-0.0.8.tgz",
+    "sha256": "441ef6db48ce61bfece3ed439d294febca4308eaaf7eff9de0683f62ffc7f3c0",
+    "licence": "MIT"
+  },
+  {
+    "name": "buffer",
+    "version": "3.6.0",
+    "source": "https://registry.npmjs.org/buffer/-/buffer-3.6.0.tgz",
+    "sha256": "24827ec38e964777d28c3c4d9ef6e53ed5994ec499cf7033f71cb4c955b1ffc8",
+    "licence": "MIT"
+  },
+  {
+    "name": "es6-promise",
+    "version": "4.1.1",
+    "source": "https://registry.npmjs.org/es6-promise/-/es6-promise-4.1.1.tgz",
+    "sha256": "a560d83c3643bc3808bc2fe97f447c81e62dafb69aff3a31478c58d901376e4b",
+    "licence": "MIT"
+  },
+  {
+    "name": "fetch-jsonp",
+    "version": "1.1.3",
+    "source": "https://registry.npmjs.org/fetch-jsonp/-/fetch-jsonp-1.1.3.tgz",
+    "sha256": "eee9c55918344b26a3dcff2a9047e2f1d030508bd84dc52d9d1439770b3ccf9f",
+    "licence": "MIT"
+  },
+  {
+    "name": "file-saver",
+    "version": "1.3.3",
+    "source": "https://registry.npmjs.org/file-saver/-/file-saver-1.3.3.tgz",
+    "sha256": "a6101c3beddbba1aa0ccb934c60c45185d8fcd6a45231c8d8a3077d4211ff314",
+    "licence": "MIT"
+  },
+  {
+    "name": "ieee754",
+    "version": "1.1.8",
+    "source": "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz",
+    "sha256": "a0dd51ee2de6ab8ad452e829ece19bcfc5fdb796502051ec8d533adc9cba1b31",
+    "licence": "BSD-3-Clause"
+  },
+  {
+    "name": "isarray",
+    "version": "1.0.0",
+    "source": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+    "sha256": "e23c76f14f5222e07e39d89858b61e8e33f96956de9e0df3659cbdf8db950c87",
+    "licence": "MIT"
+  },
+  {
+    "name": "opentype.js",
+    "version": "0.7.3",
+    "source": "https://registry.npmjs.org/opentype.js/-/opentype.js-0.7.3.tgz",
+    "sha256": "4fa903c28d5bf9f82a750da11609400a57b53568496cdd832ba0da9be0293764",
+    "licence": "MIT"
+  },
+  {
+    "name": "tiny-inflate",
+    "version": "1.0.2",
+    "source": "https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.2.tgz",
+    "sha256": "9d9a0912315462c9c380544ae325a2cb4d37471c0099be8444e99589213539d8",
+    "licence": "MIT"
+  },
+  {
+    "name": "process",
+    "version": "0.11.10",
+    "source": "https://registry.npmjs.org/process/-/process-0.11.10.tgz",
+    "sha256": "7c10569b3c9cb056152ad630d40f9f4fcc321a0013c2bb8384f036aaa674e6bb",
+    "licence": "MIT"
+  },
+  {
+    "name": "whatwg-fetch",
+    "version": "2.0.3",
+    "source": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz",
+    "sha256": "9b48e6b048ff52f1193a6327a423d36fcc59431f1f94aa71d74b5285e770ce8b",
+    "licence": "MIT"
+  }
+]

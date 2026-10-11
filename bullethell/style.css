@@ -1,0 +1,54 @@
+/* Play frame shell, 2026-10-11. Game colours and local font retained. */
+@font-face { font-family: 'Source Code Pro'; src: url('fonts/SourceCodePro-Regular.ttf'); }
+:root { color-scheme: dark; background: #1E003D; color: #ECF0F1; font-family: 'Source Code Pro', monospace; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+button, a { font: inherit; color: inherit; }
+button { position: relative; border: 1px solid #37DBD0; background: #4E046D; border-radius: 6px; min-width: 44px; min-height: 44px; padding: 4px 8px; touch-action: none; }
+/* Preserve rounded visuals while admitting the entire rectangular hit area. */
+button::before, #stick::before { content: ''; position: absolute; inset: -1px; }
+button:active { background: #176464; }
+button:focus-visible, a:focus-visible, #game:focus-visible { outline: 2px solid #F1C40F; }
+.toolbar { height: 48px; display: flex; gap: 4px; align-items: center; padding: 2px 4px; }
+h1 { color: #F1C40F; font-size: 14px; margin: 0 auto 0 0; white-space: nowrap; }
+.toolbar button { font-size: 11px; }
+#stage { position: absolute; inset: 48px 0 132px; display: grid; place-items: center; }
+#game { display: grid; place-items: center; width: 100%; height: 100%; }
+canvas { display: block; border: 1px solid #F1C40F; touch-action: none; }
+#welcome { position: absolute; text-align: center; background: #1E003Dee; padding: 10px; border-radius: 8px; }
+#welcome p { margin: 0 0 6px; font-size: 12px; }
+#status { position: absolute; bottom: 122px; left: 0; right: 0; display: flex; justify-content: center; gap: 10px; font-size: 11px; line-height: 20px; }
+#debug { display: none; position: fixed; top: 50px; left: 4px; z-index: 2; background: #1E003D; }
+#debug span { display: block; }
+#touch { position: absolute; bottom: 48px; left: 0; right: 0; height: 72px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+#touch button { min-width: 48px; min-height: 48px; }
+#stick { position: relative; width: 72px; height: 72px; flex-shrink: 0; margin-right: 8px; border: 1px solid #37DBD0; border-radius: 50%; background: #4E046D; display: grid; place-items: center; touch-action: none; user-select: none; }
+#stick > span:last-child { font-size: 10px; pointer-events: none; z-index: 1; }
+#knob { position: absolute; width: 32px; height: 32px; border-radius: 50%; background: #176464; pointer-events: none; }
+#options { position: absolute; top: 50px; right: 4px; left: 4px; z-index: 3; padding: 6px; background: #1E003Df5; border: 1px solid #37DBD0; max-height: calc(100% - 98px); display: flex; flex-wrap: wrap; gap: 4px; font-size: 11px; }
+/* Controls is a menu state: its panel never covers active gameplay targets. */
+body:has(#options:not([hidden])) #touch, body:has(#options:not([hidden])) #welcome { display: none; }
+#options p { flex-basis: 100%; margin: 0 0 4px; }
+#options button { margin: 0; }
+.legal-link { position: fixed; right: 4px; bottom: 0; z-index: 5; font-size: 11px; line-height: 16px; background: #1E003D; min-width: 44px; min-height: 44px; padding: 4px; display: grid; place-items: center; }
+[hidden] { display: none !important; }
+@media (max-width: 260px) {
+  .toolbar h1 { display: none; }
+}
+@media (max-width: 320px) {
+  h1 { font-size: 12px; }
+  .toolbar button { font-size: 10px; padding: 4px; }
+  #touch { gap: 4px; }
+  #stick { margin-right: 4px; }
+  #touch button { min-width: 44px; font-size: 12px; padding: 4px; }
+}
+@media (min-aspect-ratio: 6/5) {
+  #stage { inset: 48px 92px 12px; }
+  #status { bottom: 2px; padding-right: 45px; }
+  #touch { inset: 36px 0 24px; height: auto; display: block; pointer-events: none; }
+  #stick { position: absolute; left: 8px; top: calc(50% - 36px); pointer-events: auto; }
+  #touch button { position: absolute; right: 8px; width: 72px; min-height: 44px; pointer-events: auto; }
+  #fire { top: calc(50% - 70px); }
+  #touch button[data-key="88"] { top: calc(50% - 22px); }
+  #touch button[data-key="67"] { top: calc(50% + 26px); }
+}
