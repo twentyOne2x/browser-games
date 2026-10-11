@@ -1,0 +1,63 @@
+CaveExpress corresponding source, free of charge on this origin
+
+Download source.tgz from this directory. Together with ../caveexpress.data,
+it contains all game code, editable Lua/map scripts, generated game assets,
+linked dependency sources, Emscripten runtime sources, build instructions,
+this page shell, patches and the rerunnable sandbox proof.
+GPL version 3 section 6(d) permits object-code distribution when you
+"offer equivalent access to the Corresponding Source in the same way through
+the same place at no further charge". These files are provided together here.
+This is source delivery under section 6(d), not a promise to provide it later.
+
+Upstream: https://github.com/mgerhardy/caveexpress
+Source pin: 43fc170567c140d037d592148e652fc864ee0302
+Author browser page: https://mgerhardy.github.io/caveexpress/caveexpress.html
+Author deploy commit: 0cb9e16f491dc085cacca16375466bd9022ac257
+Successful build run: 34778221937, Emscripten job 103780197236, emsdk 4.0.5.
+Original browser files match deploy Git blobs exactly. The successful job
+builds this source pin and its deploy step encloses the deploy commit time.
+The fix-round proof rebuilds the sanitized full wasm source offer locally.
+Byte-for-byte binary reproducibility is not claimed.
+
+Our patches, dated 2026-10-11:
+1. New index.html, frame.css and frame.js: aspect-fit canvas, DPR at most 2,
+   resize handling, visible keyboard-equivalent touch controls, persistent
+   legal link, focus and held-key cleanup, safe in-page status messages,
+   local single-player arguments and MEMFS session-only saves.
+2. caveexpress.js generated loader: replace both OpenURL bridges, both alert bridges, both prompt/stdin
+   bridges, deny both fullscreen paths and the pointer lock import, cap the
+   device pixel ratio import and preserve the upstream title CaveExpress.
+   tools/patch-loader.py checks exact inputs and recreates every replacement.
+3. PLAY-HOST-CAVEEXPRESS-2: reflow every touch target to at least 44x44 CSS
+   pixels, including legal/text controls, and add all-control S7 measurements.
+   SANITIZED source packaging omits 24 unused native/Android artifacts;
+   SANITIZED.md and sanitization.json identify each removal and original hash.
+   All remaining source members preserve their original bytes.
+4. Legal notices and local proof/build/package tooling. No WebAssembly or
+   game-data bytes were changed. No engine or game rules were rewritten.
+
+Reused page patterns: twentyOne2x/browser-games at
+9e94abf8755175e03efc82bbc84ff4a67e69a264, doom-shareware/ and 2048/js/frame.js.
+Only the shell structure, touch-control pattern, notices and proof approach
+were used. No other game's engine or data is included in the runnable page.
+
+Extract with: tar -xzf source.tgz
+Restore all 349 data members and 12 pinned dependencies offline with:
+  python3 source/prepare-source.py ../caveexpress.data
+Activate an emsdk 4.0.5 compiler, then:
+  bash source/build.sh ../caveexpress.data
+See source/README-SOURCE.md for the build inputs and limits.
+To recreate the page patches from the original loader:
+  cd source/page
+  python3 tools/patch-loader.py
+To run the proof:
+  npm ci --ignore-scripts
+  CHROMIUM_PATH=/path/to/chrome bash proof/run.sh
+
+Raw workshop artwork is not required for compiling the engine and is not
+in the code archive. The original packed artwork is supplied unchanged in
+../caveexpress.data, with the CC BY-SA attribution and full licence here.
+All upstream src/, cmake/ and docs/ files are retained. Emscripten test/,
+site/ are omitted; media/powered_by_logo_shell.png is retained for HTML linking.
+Other media files are omitted; all compiler/runtime source is retained.
+Addresses above identify provenance and do not cause runtime network calls.

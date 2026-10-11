@@ -1,0 +1,107 @@
+[
+  {
+    "name": "lua",
+    "pin": "5.4.4",
+    "url": "https://codeload.github.com/marovira/lua/tar.gz/5.4.4",
+    "file": "lua.tgz",
+    "bytes": 372741,
+    "sha256": "eaf9c5b9fcc9b1da913ac5ed8998da854662cd3903f4ac30622739bb34a06ef0"
+  },
+  {
+    "name": "sqlite-wrapper",
+    "pin": "v3.45.1",
+    "url": "https://codeload.github.com/sjinks/sqlite3-cmake/tar.gz/v3.45.1",
+    "file": "sqlite-wrapper.tgz",
+    "bytes": 3467,
+    "sha256": "4b09848480312bdf051b25b17b6453bae349ac9eed378d021e10d4b557214057"
+  },
+  {
+    "name": "box2d",
+    "pin": "v2.4.2",
+    "url": "https://codeload.github.com/erincatto/box2d/tar.gz/v2.4.2",
+    "file": "box2d.tgz",
+    "bytes": 1236569,
+    "sha256": "85b9b104d256c985e6e244b4227d447897fac429071cc114e5cc819dae848852"
+  },
+  {
+    "name": "sqlite",
+    "pin": "3450100",
+    "url": "https://sqlite.org/2024/sqlite-amalgamation-3450100.zip",
+    "file": "sqlite.zip",
+    "bytes": 2730697,
+    "sha256": "5592243caf28b2cdef41e6ab58d25d653dfc53deded8450eb66072c929f030c4"
+  },
+  {
+    "name": "sdl2",
+    "pin": "release-2.32.0",
+    "url": "https://github.com/libsdl-org/SDL/archive/release-2.32.0.zip",
+    "file": "sdl2.zip",
+    "bytes": 9053995,
+    "sha256": "dc418226aae13ddfd71ea7d68046e3f50ea5f4e8b849f52a369396832b007ed3",
+    "upstream_bytes": 9103032,
+    "upstream_sha256": "9e00f1108b621b44ed303f0a7ef76efd046cc2bbf8854eb19dbd0b8617c4f45a",
+    "sanitized": true
+  },
+  {
+    "name": "sdl2_mixer",
+    "pin": "release-2.8.0",
+    "url": "https://github.com/libsdl-org/SDL_mixer/archive/release-2.8.0.zip",
+    "file": "sdl2_mixer.zip",
+    "bytes": 2253688,
+    "sha256": "d516beeb5b46ade550c557e5a5ccc1a27dd897d54372b3a3f144128be09a8040",
+    "upstream_bytes": 11176840,
+    "upstream_sha256": "3aa9b3abd7cefb3e7952ec2d0acf38c70947f04be14d74ed45f57155c7457386",
+    "sanitized": true
+  },
+  {
+    "name": "sdl2_net",
+    "pin": "version_2",
+    "url": "https://github.com/emscripten-ports/SDL2_net/archive/version_2.zip",
+    "file": "sdl2_net.zip",
+    "bytes": 376819,
+    "sha256": "fc8caf8ea278f91bff6eb4ac3074fee8657c428a2767bcebc2cf142f2b3e35bd"
+  },
+  {
+    "name": "sdl2_image",
+    "pin": "release-2.6.0",
+    "url": "https://github.com/libsdl-org/SDL_image/archive/refs/tags/release-2.6.0.zip",
+    "file": "sdl2_image.zip",
+    "bytes": 1999918,
+    "sha256": "2b2ee9578df16cb071e6ea45c4ca06c54aeafadbdcaa325e4422acfb07b6bc0e",
+    "upstream_bytes": 10045172,
+    "upstream_sha256": "ff4b2f76d54ea6c6aecd1c5c5f3708075f51e83b9f748b827b5bc57e2dba87f4",
+    "sanitized": true
+  },
+  {
+    "name": "libpng",
+    "pin": "1.6.39",
+    "url": "https://storage.googleapis.com/webassembly/emscripten-ports/libpng-1.6.39.tar.gz",
+    "file": "libpng.tgz",
+    "bytes": 1507328,
+    "sha256": "af4fb7f260f839919e5958e5ab01a275d4fe436d45442a36ee62f73e5beb75ba"
+  },
+  {
+    "name": "zlib",
+    "pin": "1.3.1",
+    "url": "https://github.com/madler/zlib/archive/refs/tags/v1.3.1.tar.gz",
+    "file": "zlib.tgz",
+    "bytes": 1572744,
+    "sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c"
+  },
+  {
+    "name": "ogg",
+    "pin": "version_1",
+    "url": "https://github.com/emscripten-ports/ogg/archive/version_1.zip",
+    "file": "ogg.zip",
+    "bytes": 324933,
+    "sha256": "22f599bbe6065ff98fc565f2db6665da548181cf90982b89fdc42d83fbc6370b"
+  },
+  {
+    "name": "vorbis",
+    "pin": "version_1",
+    "url": "https://github.com/emscripten-ports/vorbis/archive/version_1.zip",
+    "file": "vorbis.zip",
+    "bytes": 1451655,
+    "sha256": "b27caa51862008b109cb1375f039d76f622d60ea73ad308e1b5a09874569fe7e"
+  }
+]
