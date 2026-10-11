@@ -1,0 +1,72 @@
+Bullet Hell
+Upstream: https://github.com/selenebun/bullethell
+Author page: https://selenebun.github.io/bullethell/
+Pinned commit: 75173f8c37868ac7f30b886da6d28560e8e4418b
+Original title: Bullet Hell
+
+Source is supplied free of charge in bullethell-source.tgz beside this file.
+All engine files are readable JavaScript and are also served directly.
+The original MIT copyright notice and grant remain intact in MIT.txt.
+Our small frame patches, 2026-10-11:
+1. index.html: viewport, local-resource CSP, original title, start/restart,
+   touch controls, compact status, debug options and same-frame legal/ link.
+2. style.css: responsive aspect-preserving shell using the original local font
+   and colours, with reachable touch controls in both orientations. Fix round 2
+   gives shell buttons and Legal 44x44 minimum hit areas, reserves a 48px toolbar
+   and wrapping options, and retains Legal in the lower-right corner. Compensating
+   stage insets preserve canvas dimensions. Gameplay target rules are unchanged.
+   Fix round 3 reserves Legal's bottom row in portrait and raises the touch rail,
+   stage bottom inset and status by 32px. Transparent pseudo elements give rounded
+   controls their full rectangular hit areas. Opening Controls hides the gameplay
+   rail and welcome button until closing; its panel fits above Legal. Original
+   game scripts, libraries, font, world dimensions and gameplay rules are retained.
+3. scripts/main.js setup only: retain logical 600x750 geometry, cap density,
+   show a paused start screen, call fitFrame. All rules and controls unchanged.
+4. scripts/frame.js: fit on resize; cap logical and rendered pixel density at 2;
+   translate move stick and buttons to the original p5 keyboard handlers;
+   release held touch input on end/cancel/capture loss/blur/visibility loss.
+5. legal/: full licences, attribution, source archives, data and dependency pins.
+Proof and packaging tools are separate from the runtime.
+
+p5.js dependency:
+Official npm package: p5@0.6.0
+https://registry.npmjs.org/p5/-/p5-0.6.0.tgz
+Package SHA256: 89b80415525e144dc37fc2888c0a1f31cec8f8689a0d02e34505afa7301ac5ee
+Official source: https://github.com/processing/p5.js
+Tag: 0.6.0
+Commit: a1599e958302d813a1848355cd9fe0d73b45a1ed
+p5-source.tgz supplies full preferred modules, build scripts, original package
+lock, readable compiled library and the sources of its bundled dependencies.
+The shipped minified library is unmodified and byte-identical to npm p5@0.6.0.
+The generated docs/reference/data.json is extracted exactly from that npm
+readable bundle. The original p5.dom.js is included for the core uglify task.
+The optional documentation website and unrelated test fixtures are omitted.
+After installing the original package's build dependencies, the core tasks are:
+  npx grunt browserify browserify:min uglify
+Original npm run build additionally invokes the omitted website build.
+LGPL-2.1.txt accompanies it. Replace scripts/lib/p5.min.js with a compatible
+modified p5 library, or point index.html to the readable local source extracted
+from the archive. Reload in a static server to use your modified version.
+There is no proprietary link step or prohibition on debugging modifications.
+
+Dependency licences and pins:
+base64-js 0.0.8 MIT: dependency-notices/base64-js-0.0.8/LICENSE.MIT
+buffer 3.6.0 MIT: dependency-notices/buffer-3.6.0/LICENSE
+es6-promise 4.1.1 MIT: dependency-notices/es6-promise-4.1.1/LICENSE
+fetch-jsonp 1.1.3 MIT: dependency-notices/fetch-jsonp-1.1.3/MIT.txt
+file-saver 1.3.3 MIT: dependency-notices/file-saver-1.3.3/LICENSE.md
+  Its source matches the bundle but retains a FileSaver 1.3.2 header upstream.
+ieee754 1.1.8 BSD-3-Clause: dependency-notices/ieee754-1.1.8/LICENSE
+isarray 1.0.0 MIT: dependency-notices/isarray-1.0.0/MIT.txt
+opentype.js 0.7.3 MIT: dependency-notices/opentype.js-0.7.3/LICENSE
+tiny-inflate 1.0.2 MIT: dependency-notices/tiny-inflate-1.0.2/MIT.txt
+process 0.11.10 MIT: dependency-notices/process-0.11.10/LICENSE
+whatwg-fetch 2.0.3 MIT: dependency-notices/whatwg-fetch-2.0.3/LICENSE
+The READMEs and package metadata are supplied alongside every notice.
+Download addresses and SHA256 values are in DEPENDENCIES.json.
+
+Shell reference, no engine code copied from siblings:
+https://github.com/twentyone2x/browser-games
+Commit: 9e94abf8755175e03efc82bbc84ff4a67e69a264
+2048 legal page/SOURCE.txt and frame conventions; Doom local source archive.
+No Bullethell sibling exists at that repository pin.

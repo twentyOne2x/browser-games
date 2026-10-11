@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; worker-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+    <meta name="author" content="Amelia Clarke">
+    <title>Bullet Hell</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="scripts/lib/p5.min.js" defer></script>
+    <script src="scripts/util.js" defer></script>
+    <script src="scripts/template/models.js" defer></script>
+    <script src="scripts/template/bosses.js" defer></script>
+    <script src="scripts/template/bullets.js" defer></script>
+    <script src="scripts/template/enemies.js" defer></script>
+    <script src="scripts/template/items.js" defer></script>
+    <script src="scripts/template/levels.js" defer></script>
+    <script src="scripts/template/particles.js" defer></script>
+    <script src="scripts/template/weapons.js" defer></script>
+    <script src="scripts/class/entity.js" defer></script>
+    <script src="scripts/class/bullet.js" defer></script>
+    <script src="scripts/class/emitter.js" defer></script>
+    <script src="scripts/class/item.js" defer></script>
+    <script src="scripts/class/particle.js" defer></script>
+    <script src="scripts/class/particle_system.js" defer></script>
+    <script src="scripts/class/ship.js" defer></script>
+    <script src="scripts/class/boss.js" defer></script>
+    <script src="scripts/class/enemy.js" defer></script>
+    <script src="scripts/class/player.js" defer></script>
+    <script src="scripts/class/starfield.js" defer></script>
+    <script src="scripts/class/wall.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/frame.js" defer></script>
+  </head>
+  <body>
+    <header class="toolbar">
+      <h1>Bullet Hell</h1>
+      <button id="restart" type="button">New game</button>
+      <button data-key="80" type="button">Pause</button>
+      <button id="more" type="button" aria-expanded="false">Controls</button>
+    </header>
+    <main id="stage">
+      <div id="game" tabindex="0" aria-label="Bullet Hell playfield"></div>
+      <div id="welcome"><p>Move, fire and dodge.</p><button id="start" type="button">Start game</button></div>
+    </main>
+    <div id="status"><span id="level"></span><span id="score"></span><span id="scoremult"></span>
+      <span id="debug"><span id="fps"></span><span id="avgfps"></span></span>
+    </div>
+    <nav id="touch" aria-label="Touch controls">
+      <div id="stick" role="group" aria-label="Move stick"><span id="knob"></span><span>Move</span></div>
+      <button id="fire" data-hold="90" type="button">Fire</button>
+      <button data-key="88" type="button">Slow</button>
+      <button data-key="67" type="button">Bomb</button>
+    </nav>
+    <aside id="options" hidden>
+      <p>Arrows / WASD: move. Z / B: fire. X / N: slow. C / M: bomb. P: pause.</p>
+      <button data-key="70" type="button">FPS</button><button data-key="71" type="button">Low graphics</button>
+      <button data-key="72" type="button">Hitboxes</button><button data-key="84" type="button">Black background</button>
+      <button data-key="89" type="button">Stars</button>
+    </aside>
+    <a class="legal-link" href="legal/">Legal</a>
+  </body>
+</html>
