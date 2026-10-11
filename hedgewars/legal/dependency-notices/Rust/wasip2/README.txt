@@ -1,0 +1,1 @@
+Supplemental full text for the MIT option explicitly declared in the original wasip2 Cargo.toml. No copyright holder or date is inferred. Original source and manifest are preserved. This target does not link wasip2.

@@ -1,0 +1,57 @@
+{
+  "tools": [
+    {
+      "name": "emsdk",
+      "pin": "404dc1ec13f64fce1af1eaf5c007e18212f63527",
+      "source": "https://github.com/emscripten-core/emsdk"
+    },
+    {
+      "name": "Emscripten/LLVM SDK",
+      "version": "4.0.13",
+      "release": "32b8ae819674cb42b8ac2191afeb9571e33ad5e2",
+      "source": "https://storage.googleapis.com/webassembly/emscripten-releases-builds/linux/32b8ae819674cb42b8ac2191afeb9571e33ad5e2/wasm-binaries.tar.xz",
+      "sha256": "2ad887035e3e5cac78abcaeca3b3881897f03b9919d008cbc0ef41d7641247c9"
+    },
+    {
+      "name": "SDK Node",
+      "version": "22.16.0",
+      "source": "https://storage.googleapis.com/webassembly/emscripten-releases-builds/deps/node-v22.16.0-linux-x64.tar.xz",
+      "sha256": "f4cb75bb036f0d0eddf6b79d9596df1aaab9ddccd6a20bf489be5abe9467e84e"
+    },
+    {
+      "name": "Rust compiler",
+      "version": "1.97.1",
+      "commit": "8bab26f4f68e0e26f0bb7960be334d5b520ea452",
+      "status": "Preinstalled host toolchain"
+    },
+    {
+      "name": "Rust wasm32-unknown-emscripten standard library",
+      "version": "1.97.1",
+      "source": "https://static.rust-lang.org/dist/2026-07-16/rust-std-1.97.1-wasm32-unknown-emscripten.tar.xz",
+      "sha256": "224601fd80ecbb3ec27e5437bb266e9463259b269ec77b10e44016981fc1a637",
+      "verification": "Official installed rustup channel manifest; rustup verified download"
+    },
+    {
+      "name": "npm build/proof utilities",
+      "versions": {
+        "playwright": "1.61.1",
+        "pngjs": "7.0.0",
+        "spdx-license-list": "6.11.0"
+      },
+      "integrity": "package-lock.json"
+    },
+    {
+      "name": "Chromium",
+      "version": "149.0.7827.55",
+      "source": "Locked Playwright browser distribution",
+      "status": "Preinstalled Playwright cache; actual version in proof report"
+    },
+    {
+      "name": "Rust standard-library source",
+      "version": "1.97.1",
+      "commit": "8bab26f4f68e0e26f0bb7960be334d5b520ea452",
+      "source": "https://static.rust-lang.org/dist/2026-07-16/rust-src-1.97.1.tar.xz",
+      "sha256": "e9a1e616d04c6845895c827a178b9227f7c7199f3f4a80af81ab3aff7b80156b"
+    }
+  ]
+}
