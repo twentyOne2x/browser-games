@@ -1,0 +1,21 @@
+CaveExpress
+Upstream: https://github.com/mgerhardy/caveexpress
+Source commit: 43fc170567c140d037d592148e652fc864ee0302
+Published browser build: https://mgerhardy.github.io/caveexpress/caveexpress.html
+
+Copyright 2014-2016, Martin Gerhardy info@caveproductions.org
+Artwork and assets: Martin Gerhardy and CaveExpress contributors, as supplied
+by the upstream repository under CC BY-SA 4.0. Original notices are preserved.
+The artwork and game data are unchanged. The local page shell and generated
+JavaScript browser bridge have been adapted for a sandboxed Play iframe.
+No affiliation with or endorsement by the upstream authors is claimed.
+
+Luckiest Guy font:
+Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
+All rights reserved. Available under the Apache 2.0 licence.
+Luckiest Guy is a trademark of Astigmatic (AOETI).
+This notice is from the supplied TTF name table. The original TTF and
+Apache licence are included in the corresponding source archive.
+
+All code and artwork credits and embedded copyright notices remain in the
+source archive. Third party component licence texts are also in this directory.

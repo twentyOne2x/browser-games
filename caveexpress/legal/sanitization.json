@@ -1,0 +1,173 @@
+{
+  "sourcePin": "43fc170567c140d037d592148e652fc864ee0302",
+  "removed": [
+    {
+      "archive": "sdl2.zip",
+      "file": "SDL-release-2.32.0/android-project/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 54213,
+      "sha256": "2c23278a62dc9f96ab11bee897d9f53e6479d6419135e4560ce822a6431df5e5",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libgme.dll",
+      "bytes": 612864,
+      "sha256": "ff03d6268e76b8bb0a3526be86de23352696284bca6c72e07fbfb410b1c28772",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libogg-0.dll",
+      "bytes": 35328,
+      "sha256": "2faf08f27f1008ca602039e199fdf671df0962923836351eade6ceb6c88e49e4",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libopus-0.dll",
+      "bytes": 370176,
+      "sha256": "9c09ad462d201d13c9aebfb4f31d1537ef071128b1ce9bb0f8b79f52090ffe1c",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libopusfile-0.dll",
+      "bytes": 51200,
+      "sha256": "6760d02f10ed90708504eb08fadb4cda9ead438893996f13d0a09925d126e338",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libwavpack-1.dll",
+      "bytes": 175616,
+      "sha256": "4858ee1978ce427955b9d6d44b852b323ee7a8c4b5914231127fe57aff40057e",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x64/libxmp.dll",
+      "bytes": 387584,
+      "sha256": "8d44f1032433e16643e370142049572bd98bdb27f795b36922c4757461e1add9",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libgme.dll",
+      "bytes": 558592,
+      "sha256": "44c63c36fdd5a6db19d85db7b0168e21f6d55d57b4ea4bd9a2220a438ad01f85",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libogg-0.dll",
+      "bytes": 30720,
+      "sha256": "893e9e0126055a04139c03b460f1a2d9d8c1e8a2a23a217f45703372f369971f",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libopus-0.dll",
+      "bytes": 348672,
+      "sha256": "cc122858bfc543a791cd457299c59a45ff02ee40c2d771e4a10b2180191a7b10",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libopusfile-0.dll",
+      "bytes": 51712,
+      "sha256": "5720616fe6435f5e2e8ac3b1ac4769cb4cab4948047543ab59b34546ec34e519",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libwavpack-1.dll",
+      "bytes": 168448,
+      "sha256": "c112d04ea8e6363203c7d87f584d76a29cd8438be1ee9bb0322780ff443085d3",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/VisualC/external/optional/x86/libxmp.dll",
+      "bytes": 374784,
+      "sha256": "806b8ab090717faca7b5937268b9a5116854ce89af70d152aff00a84df95a580",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/Xcode/iOS/SDL2.framework/SDL2",
+      "bytes": 8304088,
+      "sha256": "ac9102a8f37c5c6b9509d7904021576e2b904f8b8f8c239af3072cfde0bcdac7",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/Xcode/macOS/SDL2.framework/Versions/A/SDL2",
+      "bytes": 3047536,
+      "sha256": "f225326371fa638b529a73428fae3a610ea0a8f0920c8b566b7e5338aded549b",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_mixer.zip",
+      "file": "SDL_mixer-release-2.8.0/Xcode/tvOS/SDL2.framework/SDL2",
+      "bytes": 4204552,
+      "sha256": "3b4962c688884ea6cb313c1c79362799e1d2ff282ae64beba4749a2d511bdfa8",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/VisualC/external/optional/x64/libtiff-5.dll",
+      "bytes": 426496,
+      "sha256": "5ce626b7e561869d9839b0de0e580ac8f87bb8d525909b72731a3d5dfcfec554",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/VisualC/external/optional/x64/libwebp-7.dll",
+      "bytes": 446464,
+      "sha256": "fbf71e942fb7a30fca6a739241381ba38e6155bcc3eed93f7c930d51d8817894",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/VisualC/external/optional/x86/libtiff-5.dll",
+      "bytes": 421888,
+      "sha256": "96a76918b40df1dfb85e2c638badd4c00e3865f1c45c8b9bbb65e9b3f1949c2a",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/VisualC/external/optional/x86/libwebp-7.dll",
+      "bytes": 407552,
+      "sha256": "2c6714626236e8dbca50bc784bb128cf7dfc715b6863e5ae9aca5b2b19c3ba29",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/Xcode/iOS/SDL2.framework/SDL2",
+      "bytes": 8304088,
+      "sha256": "ac9102a8f37c5c6b9509d7904021576e2b904f8b8f8c239af3072cfde0bcdac7",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/Xcode/macOS/SDL2.framework/Versions/A/SDL2",
+      "bytes": 3047536,
+      "sha256": "f225326371fa638b529a73428fae3a610ea0a8f0920c8b566b7e5338aded549b",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "sdl2_image.zip",
+      "file": "SDL_image-release-2.6.0/Xcode/tvOS/SDL2.framework/SDL2",
+      "bytes": 4204552,
+      "sha256": "3b4962c688884ea6cb313c1c79362799e1d2ff282ae64beba4749a2d511bdfa8",
+      "reason": "Unused precompiled native or Android artifact; not selected by the Emscripten build. No exact corresponding source asserted."
+    },
+    {
+      "archive": "upstream",
+      "file": "contrib/installer/windows/plugins/games.dll",
+      "bytes": 105472,
+      "sha256": "b72370505494abe41db16fd07d2abbbd22d56fb4873d8dfd14a2bde0df966156",
+      "reason": "Unused Windows installer plugin; not selected by the wasm build; exact plugin implementation is absent."
+    }
+  ]
+}

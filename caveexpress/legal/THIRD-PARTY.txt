@@ -1,0 +1,28 @@
+CaveExpress third party notices
+
+Apache-2.0.txt
+CC-BY-SA-4.0.txt
+Emscripten-LICENSE.txt
+GLM-COPYING.txt
+GPL-3.0.txt
+ImGui-LICENSE.txt
+Proggy-NOTICE.txt
+SQLite-PUBLIC-DOMAIN.txt
+UPSTREAM-LICENSE.txt
+YAJL-NOTICE.txt
+box2d-LICENSE.txt
+libpng-LICENSE.txt
+lua-LICENSE.txt
+lua-LUA_LICENSE.txt
+ogg-COPYING.txt
+sdl2-LICENSE.txt
+sdl2_image-LICENSE.txt
+sdl2_mixer-LICENSE.txt
+sdl2_net-COPYING.txt
+sqlite-wrapper-LICENSE.txt
+vorbis-COPYING.txt
+zlib-LICENSE.txt
+zlib-README.txt
+
+Dependency source archives and all embedded notices are preserved in source.tgz.
+See dependencies.json for versions, official URLs and hashes.

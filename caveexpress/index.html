@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>CaveExpress</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; connect-src 'self'; style-src 'self'; img-src 'self' blob:; object-src 'none'; worker-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="frame.css"></head><body>
+<main id="stage"><canvas id="canvas" tabindex="0" aria-label="CaveExpress"></canvas></main>
+<a id="legal" href="legal/">Licence and source</a>
+<section id="loading"><h1>CaveExpress</h1><p id="status" role="status">Loading game...</p><p>Fly with arrows or WASD. Space drops a package. Use OK and arrows for menus.</p></section>
+<nav id="controls" aria-label="Game controls">
+<div id="directions"><button data-key="ArrowUp" aria-label="Fly up">▲</button><button data-key="ArrowLeft" aria-label="Fly left">◀</button><button data-key="ArrowDown" aria-label="Fly down">▼</button><button data-key="ArrowRight" aria-label="Fly right">▶</button></div>
+<div id="actions"><button data-key="Enter">OK / Drop</button><button data-key="Escape">Back / Menu</button><details><summary>More keys</summary><div><button data-key="Tab">Next</button><button data-key="PageUp">Zoom +</button><button data-key="PageDown">Zoom -</button><button data-key=".">Screenshot</button><button data-key="ShiftTab">Console</button><button data-key="Backspace">Backspace</button><button data-key="Delete">Delete</button><button data-key="Insert">Insert</button><label>Text <input id="text-entry" type="text" autocomplete="off" aria-label="Game text"></label><button id="send-text">Send text</button></div></details></div>
+</nav><p id="notice" role="status" hidden></p>
+<script src="frame.js"></script><script src="caveexpress.js"></script></body></html>

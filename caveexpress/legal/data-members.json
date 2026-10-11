@@ -1,0 +1,1747 @@
+[
+  {
+    "file": "/base/caveexpress/.gitignore",
+    "sha256": "dcbbe492fc65d56c66949d758bf10de3badd1921e7255d4f7d2adcba683de27f",
+    "bytes": 8
+  },
+  {
+    "file": "/base/caveexpress/campaigns/00-tutorial-campaign.lua",
+    "sha256": "ee5a8ded00ce88bf928db1c6c50011b3eb52399031a61fa6d13e8995d59a4480",
+    "bytes": 908
+  },
+  {
+    "file": "/base/caveexpress/campaigns/01-ice-campaign.lua",
+    "sha256": "161c86afc0458fa513d592f742d6a0463829ab0b18e72aa767721df6511479a4",
+    "bytes": 657
+  },
+  {
+    "file": "/base/caveexpress/campaigns/02-rock-campaign.lua",
+    "sha256": "59e838b06e52e9820452048bfd7d5fe976376f0ecb59f6faaa662d65508c78be",
+    "bytes": 617
+  },
+  {
+    "file": "/base/caveexpress/campaigns/03-second-rock-campaign.lua",
+    "sha256": "a963d49b9e62053804343695f394e318cd34e506d34d8c370ca6eb1c1b932ec6",
+    "bytes": 436
+  },
+  {
+    "file": "/base/caveexpress/campaigns/04-second-ice-campaign.lua",
+    "sha256": "78840d1924e8ec2b89804c43f9b4adce86038b929e64fdf9b6fcdf22d7d2ee71",
+    "bytes": 697
+  },
+  {
+    "file": "/base/caveexpress/campaigns/05-third-ice-campaign.lua",
+    "sha256": "0f2a5638a6e875630c43c21d9669f3d673f91276b92b0faa248b7e1043a2c73b",
+    "bytes": 785
+  },
+  {
+    "file": "/base/caveexpress/campaigns/06-wind-campaign.lua",
+    "sha256": "a0848faaa380cfede7a700bed0b42ebfca72eb2596c9a8aa1ca3549134846e97",
+    "bytes": 344
+  },
+  {
+    "file": "/base/caveexpress/campaigns/07-taxi-campaign.lua",
+    "sha256": "ad06a0a82ff1e51faddb730f65f3cab9415783211a6d167aad12d74d62b92551",
+    "bytes": 386
+  },
+  {
+    "file": "/base/caveexpress/campaigns/08-desert-campaign.lua",
+    "sha256": "dd178f776982183a0235acf7cfca5a76246c88443d5ffb007552f259e3b49543",
+    "bytes": 449
+  },
+  {
+    "file": "/base/caveexpress/campaigns/09-jungle-campaign.lua",
+    "sha256": "44e9f7dab39104652f5441ec91a97836135eeff37a6673fd88deed442e71cf6e",
+    "bytes": 565
+  },
+  {
+    "file": "/base/caveexpress/campaigns/10-letters-campaign.lua",
+    "sha256": "300f2cc39df847104ce7b80ee353c245e991aa60859070ac09c3a77f0e1673ad",
+    "bytes": 818
+  },
+  {
+    "file": "/base/caveexpress/campaigns/11-villages-campaign.lua",
+    "sha256": "c6bc23768b647ccaf34cd4d9f47509ef46c86717d14a4d4703467f31770a656f",
+    "bytes": 518
+  },
+  {
+    "file": "/base/caveexpress/campaigns/12-races-campaign.lua",
+    "sha256": "eee94b6f29ac4decd6a66dbe23fa7e0503aae789892c04468d93090eaca03e72",
+    "bytes": 415
+  },
+  {
+    "file": "/base/caveexpress/campaigns/20-tests-campaign.lua",
+    "sha256": "5812bc8d2c1bec33226763f1697da7c78ea4d2979a8d796b20980d4321c70577",
+    "bytes": 727
+  },
+  {
+    "file": "/base/caveexpress/config.lua",
+    "sha256": "3f97b2897675e5561ba221c5af461077a9f2498738fd3c17c7265f7e16ee5b2c",
+    "bytes": 3646
+  },
+  {
+    "file": "/base/caveexpress/entities.lua",
+    "sha256": "7a9c08943f89b26f3334eb911d4ae0abed4b7fd8634d29954e50440f48d3779a",
+    "bytes": 807
+  },
+  {
+    "file": "/base/caveexpress/entitysounds.lua",
+    "sha256": "5b5eb68f0f552076860dd06e8947998e75f16fd427fb6a226192c37a6f3103c1",
+    "bytes": 1968
+  },
+  {
+    "file": "/base/caveexpress/fonts.lua",
+    "sha256": "fcffdf3337cff6731e1d157291fdedf702c7c34b213301d865deeaf49069f4b5",
+    "bytes": 47640
+  },
+  {
+    "file": "/base/caveexpress/lang/de_DE.lang",
+    "sha256": "91f2deae72e5300beb828f99e6c4c5022598b0e614481cd6864cfd6be66c0a9c",
+    "bytes": 18763
+  },
+  {
+    "file": "/base/caveexpress/lang/en_GB.lang",
+    "sha256": "d7423a7095b0ca3ae83cd99b70cc4c8c3b0d1b5ac52b33ad94cd1387793ef0f2",
+    "bytes": 17990
+  },
+  {
+    "file": "/base/caveexpress/maps/.gitattributes",
+    "sha256": "8b5edbf0e3000dc100cbcfac2a59b5e15bbf5c1c6f6b03f24a422b522bfcea21",
+    "bytes": 43
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-01.lua",
+    "sha256": "bd8d36f961eed25a5a832d999c86595a4c4fc3b7a0ad69e0657d7894c14fe2db",
+    "bytes": 36040
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-02.lua",
+    "sha256": "40b50a7bb1e4ac14f13f67cecb114e0038935efb94c3f12acae7e47e99200bdd",
+    "bytes": 35058
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-03.lua",
+    "sha256": "0311e68f062645f1af95b27602c3f891d94f208c2604f747841edcbe75a7e520",
+    "bytes": 24172
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-04.lua",
+    "sha256": "cde59bc283e3242bef95720aecb1e5ada941f9c6891b3541e0aeaba77a964697",
+    "bytes": 23652
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-05.lua",
+    "sha256": "7d25b983df330a1338f5662363f234c1ae6976f59f3f818fd4d9e42ff90ed821",
+    "bytes": 23708
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-06.lua",
+    "sha256": "b5272e752deca4272203a4cbe822eeb13c093822117923b321d1b1a75f3e6236",
+    "bytes": 147742
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-07.lua",
+    "sha256": "170c48cd9803350a9668b447072731c59fb0bc1dfcba6535f9deda7c2701988a",
+    "bytes": 229517
+  },
+  {
+    "file": "/base/caveexpress/maps/desert-08.lua",
+    "sha256": "5cfcb1d256ea19d5bf6a37004941e3e5a4d32a1794e64650da6960b369ec9360",
+    "bytes": 312922
+  },
+  {
+    "file": "/base/caveexpress/maps/empty.lua",
+    "sha256": "bf60496b01c74b92ed12ef65cf5654d404f2a9075ab77a5f3a91500bc638c5da",
+    "bytes": 8374
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-01.lua",
+    "sha256": "5170a4a925a25b0c80a85ef5b755588e20911ee4713d8f89cc9876617fe01a3b",
+    "bytes": 7096
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-02.lua",
+    "sha256": "1d8691e66588b11e196086f97383f39d46ef752b468197267c0e42faa0fed16b",
+    "bytes": 8253
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-03.lua",
+    "sha256": "db9902b5cb1188aa41510300b5bc2bc400c6f488593e5d385dce4663ec8b75fd",
+    "bytes": 8925
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-04.lua",
+    "sha256": "782df7edb5e8f5059bcb5bb994f2e92e6cc04004e353a5237c8b7e1aa39d18c7",
+    "bytes": 8419
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-05.lua",
+    "sha256": "470d40fd86777f99640bccf241e264ad67e43ca9d4f065e467b105981b70e34f",
+    "bytes": 7655
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-06.lua",
+    "sha256": "f60384b34c669c72964b831f41f731d31e8c67946a8c70bf8fc510d06af244c5",
+    "bytes": 7702
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-07.lua",
+    "sha256": "b027458e341b8b7d4f106e1e4df93aa66f020a7ef68737ab95ddbbef284c4a92",
+    "bytes": 7739
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-08.lua",
+    "sha256": "2822f8d334314c98d9634d037de469bfc521e9d7524ef9ec49b7b699788c0026",
+    "bytes": 7780
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-09.lua",
+    "sha256": "e7dfe02d783b75866e1b635a417c132bd5cc60b2e6d92505ecd41b72c42c77d6",
+    "bytes": 8141
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-10.lua",
+    "sha256": "5887970a44e78d69ed7777ca4bd5aa89dc00c04c0bf0e79a5d83930515045d3c",
+    "bytes": 4142
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-11.lua",
+    "sha256": "ddd593cbe471996eba314f93cb2f31222aa1fb125f5c9cee04b537e36c6c3587",
+    "bytes": 7604
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-12.lua",
+    "sha256": "022a5cffdb3b05a735f05664af167cdebc816409288a51c2d25ee07fd7001c42",
+    "bytes": 8459
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-13.lua",
+    "sha256": "187c913be7e51bb145bfc13ff8660445c375fcb1358e9de7a20a83966387ab8e",
+    "bytes": 7954
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-14.lua",
+    "sha256": "bb5acf4a9cd4ae2437f86cbba8fc995b196076deb98dee61d8c894a9c4404189",
+    "bytes": 8791
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-15.lua",
+    "sha256": "0587dd4414875065c84a23de0bb0400b203ca3ec1c70cb03e260edb630f617cc",
+    "bytes": 6710
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-16.lua",
+    "sha256": "46ab5980fe4213fb7826439d8aca7c3bd89b3098647467139bb50760ec2d3422",
+    "bytes": 5738
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-17.lua",
+    "sha256": "91ad1515f5d23bd245c2adda146263853d6784d479e34b2d610d2cd28f3ccfd5",
+    "bytes": 7567
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-18.lua",
+    "sha256": "64355777e09396b0ee9ab3bacd6318c6f1d76204bf8a78584c12564d96d38ebb",
+    "bytes": 7965
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-20.lua",
+    "sha256": "827645ac7e5449668863493e51ff3c75188327be7201f24c7d4cb1117224447f",
+    "bytes": 8289
+  },
+  {
+    "file": "/base/caveexpress/maps/ice-21.lua",
+    "sha256": "ede6ce35d3dde886e1c8333e68067d9c3865c8cbdf54366e4eba5770ca85ea66",
+    "bytes": 6392
+  },
+  {
+    "file": "/base/caveexpress/maps/intro-movie-package.lua",
+    "sha256": "db09439a42425e8e576c1943a1c4c2cbfe1ef1dc9094de4400f76aa9718212e9",
+    "bytes": 32849
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-01-package.lua",
+    "sha256": "953b258bce1eadf0077c931a5f914acebdeded1c8238ac2533e9ae845dd03418",
+    "bytes": 6856
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-02-game.lua",
+    "sha256": "5f50aa2f70a16d00c289aa91777e831c6ecf664a8f288d20cbe5b3141ec7b6bf",
+    "bytes": 6651
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-03-tree.lua",
+    "sha256": "f0863ce68750fb69f98093a80ee95a35ac2631069dd8e0af715c485c22266553",
+    "bytes": 9006
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-04-geyser.lua",
+    "sha256": "566bd4f2d1749b734242c85167fb1d57ed206e660c5b6e4a351ecf575bdd36f8",
+    "bytes": 8010
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-05-flying.lua",
+    "sha256": "d74efd9d50c1a66d34fa83b0591d41cd130c05de26bd27e90799623616b9b4ec",
+    "bytes": 6922
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-06-attack.lua",
+    "sha256": "72b9c79311fdfd179e02281c539d54497d662b425b25900e55e2019efdd58ab3",
+    "bytes": 9795
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-07-findyourway.lua",
+    "sha256": "b6365fcb58179e4db2ac5c81da19f0817e79affdfd28ddfa6f66526c25f26e3e",
+    "bytes": 5039
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-08-npcdeliver.lua",
+    "sha256": "47f569463748ea3149e8c6d8700ab9689051bcc466c13f8e45354480f42c9a96",
+    "bytes": 8921
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-09-gate.lua",
+    "sha256": "3efaa084526ad49b556f01ca06708cde90131080906b2dd1dbe13ceb8df45eb1",
+    "bytes": 5733
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-10-npcrescue.lua",
+    "sha256": "18fdd1fc7e206a5359850cdbe11d9cc6c04199ed717917eeaba3f30ccf7c8725",
+    "bytes": 9539
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-11-diving.lua",
+    "sha256": "d3ce8e87f10fa413aa8e3b215e6803f70745007fbebf7955f459230363f5d89a",
+    "bytes": 8428
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-12-lava.lua",
+    "sha256": "90825e0f4536ca37c14839d6a21b0631b664545d003bcd2bbac76f03abc1bbc5",
+    "bytes": 8837
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-13-waterrising.lua",
+    "sha256": "ac8afe1c52f8e6758ebe3c2ac3016cfcbc2b22276ca29107a632c364607d8d52",
+    "bytes": 12154
+  },
+  {
+    "file": "/base/caveexpress/maps/introducing-14-fish.lua",
+    "sha256": "d2479de654fe614f4c129da2ef9a2136a1c3e0d6e1fb05ff51b29d8c6defb35d",
+    "bytes": 12098
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-01.lua",
+    "sha256": "8f2bc10a51f46f87d00e9a8a2304fd0c617c497c3f113f24d58fa1ccac947df3",
+    "bytes": 10747
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-02.lua",
+    "sha256": "1749c0ac6b3e1066752124313570651f2dc2c996f90818e9392017c3198af16a",
+    "bytes": 8965
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-03.lua",
+    "sha256": "c8c5fd7476dc635de6d1a107e4bb5cfa33493af66bb67e7c203d05c8e6fbcf8e",
+    "bytes": 9254
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-04.lua",
+    "sha256": "159924a5c23aaeb1e33f5526c7b1a39da9405d9f41e02639db8f9a9c09437d37",
+    "bytes": 6983
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-05.lua",
+    "sha256": "79e3d3aa248271a3903d8135a52063c147083c918e13b6bf8cfd69cea40811d1",
+    "bytes": 11153
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-06.lua",
+    "sha256": "5917fce221f3e25d4a0448f2504b593d42a4616e1a37bbd4f9ee0f1fc98f5b02",
+    "bytes": 13888
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-07.lua",
+    "sha256": "9e506b6f2de6151a79a2a0577252ecccc455fc374ed790de21b4c54a1ebd927a",
+    "bytes": 8157
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-08.lua",
+    "sha256": "240270032d4077d3f65cb4b66b78bbcd8e7580df099585322d9874e72b9289f5",
+    "bytes": 7545
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-09.lua",
+    "sha256": "8cb482acf017e54c9b0e5839ed9914dbd83af512c46dd0fe6707f77140cac792",
+    "bytes": 9625
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-10.lua",
+    "sha256": "82e62e08d6cca278b6b0db295d164e14eaa03c86bf09af29fd938a42f8500540",
+    "bytes": 9785
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-11.lua",
+    "sha256": "d9d8e674ff6c3e533d59eb796de9821e78c340e008de081abc4bc87c036ec755",
+    "bytes": 10054
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-12.lua",
+    "sha256": "ba3661d57c918ff7db99756b5933b6fa131fbd3ff097ffb5502e51f089ce9247",
+    "bytes": 9488
+  },
+  {
+    "file": "/base/caveexpress/maps/jungle-13.lua",
+    "sha256": "795e18c42a80bf29d02e2472eddd55c6c8d0a3cebb0a8c757620862f104ee90f",
+    "bytes": 7727
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-01.lua",
+    "sha256": "ffd502b800a94523d9960e4bf68403773b7301003fef07cb2ec94c1294352cd4",
+    "bytes": 10801
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-02.lua",
+    "sha256": "c4637c34fd7185ab7619d89d2880a2e49de427f2a82876f7cf7f9ddfdcfda299",
+    "bytes": 9169
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-03.lua",
+    "sha256": "905a6d5ee785af398ca1050462f062d803514fd0a24768a7cbb76367d4cbe42f",
+    "bytes": 7746
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-04.lua",
+    "sha256": "7947480ee9cfa2ae9a18b565621c877f0cd63d1df3608d304b7b56fc726663d8",
+    "bytes": 7718
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-05.lua",
+    "sha256": "cf092d3897d5b10e39380a85b1bdebea5dbe1133c9f208d4b616d39de6a709a6",
+    "bytes": 9367
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-06.lua",
+    "sha256": "d6436ddead88eb2eb1384a03fdc992dcdfe01768122eb61ae2dd9e201d3e25a8",
+    "bytes": 6838
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-07.lua",
+    "sha256": "69922b33fe9fac6a17d58d872439c6251421229ba0bfd87d3c0bc0e6a476202e",
+    "bytes": 7708
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-08.lua",
+    "sha256": "6350282d2f8e098a350f4eba1da3164f2fe76929ee1e2b78a14ba47485b656c6",
+    "bytes": 7588
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-09.lua",
+    "sha256": "4e15a15c8ee035cb1d01c219c055d07b832c7a84d7da049ff5191e8b156abe85",
+    "bytes": 8282
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-10.lua",
+    "sha256": "3e8a37942bfc54dfc97ba6d6ff9c6498bd7ba92e115e64d18841b601a2fdc7e2",
+    "bytes": 7095
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-11.lua",
+    "sha256": "6e27da04ed0d655a72dc977e93c69892b34cf12042f8bd017bc87a29749c9f69",
+    "bytes": 8400
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-12.lua",
+    "sha256": "1ba8e0c17d60ab158819599eb983ec9d4f587720e1a2fdca286ce5b4e1659e4b",
+    "bytes": 6916
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-13.lua",
+    "sha256": "cd67b242246f72722ae77f7c89af7943a2079402e9e0d4054f6f516710991d53",
+    "bytes": 12176
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-14.lua",
+    "sha256": "9613163eb8ff66dae97d78d29db09cc601f99b5e4be9ecca2426e8a89239b33f",
+    "bytes": 8117
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-15.lua",
+    "sha256": "505f747b00f7138ed18d727da583185b060936a925a915027fba0fb2feeec8fd",
+    "bytes": 11574
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-16.lua",
+    "sha256": "4c449d9f6572eaec13c921d97238190da7e86cbd29eeb66fce8cec8affbe472a",
+    "bytes": 7125
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-17.lua",
+    "sha256": "08c267f7e1ff72b3dd8105807dd5ca7084097dd7c889809d94d9e4c9fbb0ea44",
+    "bytes": 8619
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-18.lua",
+    "sha256": "db4245147aed01007e1375aa326390064d319a4aae89936b5df4ca1f83033b6d",
+    "bytes": 7268
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-19.lua",
+    "sha256": "b4ee42fa0860b337a7989c9b93be515e9ce7480541b7de803fccc6b654cb6f3d",
+    "bytes": 10508
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-20.lua",
+    "sha256": "8513d82aa06d783a286f21aac2eb3eccb0a3c23a04e9a3386a67d719c1197b36",
+    "bytes": 7079
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-21.lua",
+    "sha256": "7e01fa1670f397b9d8d42fd5f4fcf8b4538a6f45174a5bcc5fa6c2499efe069b",
+    "bytes": 9469
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-22.lua",
+    "sha256": "62952d0340271f791e81d53f5a5d011bcc4e1b7c8fb4a344a926ec7909f62e48",
+    "bytes": 8202
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-23.lua",
+    "sha256": "8c6be6e305552a1d8e268d6c3d249ffbd6defc7bef067d29448e93759a030e25",
+    "bytes": 9626
+  },
+  {
+    "file": "/base/caveexpress/maps/letter-24.lua",
+    "sha256": "23b0d6b7915756029e16ee2e15baa147c49b3c7bfebef42a1ef3c50a56e2c937",
+    "bytes": 10546
+  },
+  {
+    "file": "/base/caveexpress/maps/races-01.lua",
+    "sha256": "aab5b0f7cb40b9f3a68c2f9485742a86e3ca2e8c51d90723c508e544a229dde4",
+    "bytes": 204153
+  },
+  {
+    "file": "/base/caveexpress/maps/races-02.lua",
+    "sha256": "ff17501b35acf7207efa234a8476cb86407a3b75fc893d1f599bea0fb03fc3ed",
+    "bytes": 195766
+  },
+  {
+    "file": "/base/caveexpress/maps/races-03.lua",
+    "sha256": "ead77806589bdf9687ca83078db308674282265c64d6d90811b9af976b7a791c",
+    "bytes": 183678
+  },
+  {
+    "file": "/base/caveexpress/maps/races-04.lua",
+    "sha256": "077b8cf7b227b2ec17be3df899640032e2da1178f06442f1143101ef5e13ad2b",
+    "bytes": 193051
+  },
+  {
+    "file": "/base/caveexpress/maps/races-05.lua",
+    "sha256": "add27fb13fd883b873ac42e3bef691ffd54ae7f49e6f1687d73c34974ccad0c7",
+    "bytes": 109504
+  },
+  {
+    "file": "/base/caveexpress/maps/races-06.lua",
+    "sha256": "059de7631a1cbdf6827e2b32826dcd871be1a80b4ff2cca6d79db5cd40f2dac6",
+    "bytes": 70661
+  },
+  {
+    "file": "/base/caveexpress/maps/races-07.lua",
+    "sha256": "148056ff883345e3104d24a9841aa48071e5566decf3aff69339bbf9f024d1e7",
+    "bytes": 148812
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-01.lua",
+    "sha256": "d80922939b8bc4a0b82da9ecf0ebaf7361b7a33e658040083548217362f464d0",
+    "bytes": 6799
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-02.lua",
+    "sha256": "7844cb137db2dcba3d4fa658c355373b536dde16d8bdce096992fffb1f1cce6b",
+    "bytes": 7744
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-03.lua",
+    "sha256": "f93e9100aedad56f298b895887ca2a19361c7b271f19a3d61fe9385c3d69aa4e",
+    "bytes": 7410
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-04.lua",
+    "sha256": "d6f2b3cbf6d6a4b4e15b8f59dfc836cf534169efd8dc5c53974743d14b93cb43",
+    "bytes": 5155
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-05.lua",
+    "sha256": "d2e521f3a4564f66ae9a07ccd97c7d38f9dfced1f9376758299bfb6ed73ee7a9",
+    "bytes": 5629
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-06.lua",
+    "sha256": "a36d7170c9e80862bb87db159a3cf14ecc3987d203a8d361971743d1af9e7e96",
+    "bytes": 7596
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-07.lua",
+    "sha256": "b2ac15f15e13f40338a34b3253dfc4f3f27d86443d009a127335df52473abe0d",
+    "bytes": 8540
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-08.lua",
+    "sha256": "004a4651d5c20a787ba5ddf2524f55ea51885f9f860298d4eb704b50da1d49e8",
+    "bytes": 7459
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-09.lua",
+    "sha256": "889185e15df0d3d76f75e62d25c1a552efa3645137ad6d182c26cea18f259d44",
+    "bytes": 5648
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-10.lua",
+    "sha256": "ad0b68cf7d1f0a7581dc94e0a9d6cb868af4a436a3d8e5e1b5df87f6554661c2",
+    "bytes": 8016
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-11.lua",
+    "sha256": "e4c2bcc760df0149f671da55d07b0cf14d854d65e7149a1fd3ffec0f81ed8cfb",
+    "bytes": 6956
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-12.lua",
+    "sha256": "66046204673d076472787f7d643cfeba46245d6fb6ac1497279e5fdfb5cd66fb",
+    "bytes": 7342
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-13.lua",
+    "sha256": "f938dacea37d76ebe0fd86f268fcae10abd3d1b87f9e5e2d7e0418d162ce9a45",
+    "bytes": 7868
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-14.lua",
+    "sha256": "9bed4f2735cab1d427c6f00e654cb2c1abfbf4fbebf15490464c5845e0971788",
+    "bytes": 6903
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-15.lua",
+    "sha256": "67baadf598b0461f7d6609464f26a9bf4e6c056f410f41f632e7a78d263f80bb",
+    "bytes": 7245
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-16.lua",
+    "sha256": "29c458e0790ff829abc93ff0014ddd5c9f1331ab5f257deb4a632edb1f138233",
+    "bytes": 10942
+  },
+  {
+    "file": "/base/caveexpress/maps/rock-17.lua",
+    "sha256": "7580186082ad9875802f1d1f8c477bab0ae0fafaa20c7e8795c52550f806bb87",
+    "bytes": 7004
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-01.lua",
+    "sha256": "8e57226e452a2f990df479d28e1e637831b643228519d7671c961c1823dccde1",
+    "bytes": 8098
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-02.lua",
+    "sha256": "c9010ae04f4fbd93a15434836495a04a89aa6f9467e525f648ed8333e581eeb2",
+    "bytes": 7650
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-03.lua",
+    "sha256": "0a309911f201532ef5cd65e024a20d6f73fd63031d0177e5456f3701ad25905b",
+    "bytes": 8466
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-04.lua",
+    "sha256": "140b03fca97a325d32af4d6fcf264a9893f671b85509edb711560dc3c753550f",
+    "bytes": 7697
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-05.lua",
+    "sha256": "7fe8ad668fb8b7803510c790a242e0a063051a4acad2bfcd9a2dd6f2f2c16abe",
+    "bytes": 8696
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-06.lua",
+    "sha256": "40214df5d9495081aa13cd1b38af991b32c571d745bd0226cab63ffb1b44f397",
+    "bytes": 13076
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-07.lua",
+    "sha256": "02ce550a91657a89ab6f208e1123cc639d5ec77cecfd1c46898ee6557de6f909",
+    "bytes": 8024
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-08.lua",
+    "sha256": "ece5369dc2771617c55451c7905722228acb4012e42244dee99c0ee77961069c",
+    "bytes": 9558
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-09.lua",
+    "sha256": "25d9977a6b6be7991fcec0b47d2c247c01ffd36f3444cdccfe20bd5c1e9025fd",
+    "bytes": 9128
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-10.lua",
+    "sha256": "e6821f7b4fbfbf307eacd4055562dc306c42a5f66e8d43a1b1f08eeeb9577bc4",
+    "bytes": 9399
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-11.lua",
+    "sha256": "6bec8aaae9baaae38f7da1ac734282ec5243df6fe3f41f71b30341ffbbe239f2",
+    "bytes": 9576
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-12.lua",
+    "sha256": "74e8feeb93ae458890a7d19999f94a761b6134c34df77f51c4da3deeff7b99bd",
+    "bytes": 8732
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-13.lua",
+    "sha256": "cc3fb7f2e4be7997389c6c910bfe6d8a7665ace354a2fedcab1c070e5bcb38c1",
+    "bytes": 7973
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-14.lua",
+    "sha256": "45c9b3cd4e83098f1be9e87856f5de58bb56ff039a48d8f4bf5a05a9fb7f72f9",
+    "bytes": 8212
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-15.lua",
+    "sha256": "17694de88d081af9414e156e9a7916483490bb7ae465ec99381a4addbf227209",
+    "bytes": 8266
+  },
+  {
+    "file": "/base/caveexpress/maps/second-ice-16.lua",
+    "sha256": "b95decf80b1f00c921f9154186ee1f2cf11e0f1067a2dd3866c5751c324a910f",
+    "bytes": 11419
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-01.lua",
+    "sha256": "9a36ec989120646f6c9cfd2a914299876760c17d5f6c3427ccfaae308ef8c5a6",
+    "bytes": 8258
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-02.lua",
+    "sha256": "7cfe4cbe660fc9bd813e1a62a38e48f70f0b3c58513f1ad58ea08b3910b5a032",
+    "bytes": 10941
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-03.lua",
+    "sha256": "8e3fca36050829663ac4cc3bfd99b81f68975e4f2c89c71d0f38098521a5f4e6",
+    "bytes": 10215
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-04.lua",
+    "sha256": "572789dab023ad50202c85ef53fbaa0416737c8628e75db9b1d3fe73a48f4321",
+    "bytes": 9753
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-05.lua",
+    "sha256": "97a4575accc411b38c3081ca9102edc09dcf93195621ed9c1bb9d842ee492046",
+    "bytes": 10516
+  },
+  {
+    "file": "/base/caveexpress/maps/second-rock-06.lua",
+    "sha256": "3ed4427093b942b16f24184bd304c373b22abbe7e32331088bafd5c91b1dcfd4",
+    "bytes": 10143
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-01.lua",
+    "sha256": "d748f68c9bc28437a4be5aed8db6aa2350eadca03ce6532844afebd4eca27735",
+    "bytes": 13333
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-02.lua",
+    "sha256": "06ec72a690a10aa37fda97b104fa8d5c398e2d828b25116992f7d0d810123ae8",
+    "bytes": 10637
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-03.lua",
+    "sha256": "92a4eddea4af9f6dea883b83ab028fe4beb56fd9f8fee254d94446e7b2ed8e91",
+    "bytes": 10140
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-04.lua",
+    "sha256": "21da22c32ad78cac13af54769bd5c37bf3fc5b9c66f9eb8840a31aed45c23563",
+    "bytes": 9190
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-05.lua",
+    "sha256": "6c60997b15a6513624b7927e07d22f4b9b4d4c7a1b9970c329cda93fd4736221",
+    "bytes": 10504
+  },
+  {
+    "file": "/base/caveexpress/maps/taxi-06.lua",
+    "sha256": "382c69f3bc03c1691fede6f37b009e9e247a2ce51cb5c498b1e313b4db6aeb89",
+    "bytes": 9998
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-fish-nothing-collected.lua",
+    "sha256": "7856b0254aba48663dc084cdc3552dd4b138d54978067d78986f56a63e279a95",
+    "bytes": 1808
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-fish-package.lua",
+    "sha256": "09d91119ede5235fefefff3b65a0ed8ef0dab0822b6d9901e916fd497dcae41d",
+    "bytes": 1859
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-flying-package.lua",
+    "sha256": "40f7f0a1796907edb54095f8b24b8fb1189937514870b4d9d895752f0c919af5",
+    "bytes": 1694
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-hitpoints.lua",
+    "sha256": "61d6b4a1c538878d9367a24e3eff6e7a954f1049e48467eeb149d26a2c66d767",
+    "bytes": 6223
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-sidescroll.lua",
+    "sha256": "b82e16e0ea4207f47ddc65a968c968810a1cc1acaab94901938d6bf3b9f88bd5",
+    "bytes": 1541
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-walking-package.lua",
+    "sha256": "1d76ea913a3b9e4d1cbaceb672be731032dcc1390bf6c96bc09d626008b184a5",
+    "bytes": 1658
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-walking-stone.lua",
+    "sha256": "cf2a9dd140e4f75f6cce7c09ce8f2f1385c57772a9783943d8e93450aa3cc90f",
+    "bytes": 1597
+  },
+  {
+    "file": "/base/caveexpress/maps/test-crash-water.lua",
+    "sha256": "e5cf1913ac84c4568bda4a1f0b16541c157be11b278e25a751806f967cfc0c94",
+    "bytes": 1955
+  },
+  {
+    "file": "/base/caveexpress/maps/test-platform-big.lua",
+    "sha256": "c06146d736747f78635412ba70699ba90f83e5aa4adbd9e16abb9ff3cdffa5fb",
+    "bytes": 3165
+  },
+  {
+    "file": "/base/caveexpress/maps/test-platform.lua",
+    "sha256": "33c66f41ba2ba53099334a68ef489d2e427a17eb61efa4bad1eb484a754e3ab2",
+    "bytes": 8712
+  },
+  {
+    "file": "/base/caveexpress/maps/test-win-package.lua",
+    "sha256": "28921b7a43603ab8ee1ad2d493be92a92ba54ea8861607bc2b27c0ff700dff1f",
+    "bytes": 1796
+  },
+  {
+    "file": "/base/caveexpress/maps/test.lua",
+    "sha256": "782658f1e908a1ab5fa1cd1b1f3769b6307c4a65439a462d44d0a0310221eacf",
+    "bytes": 15551
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-01.lua",
+    "sha256": "58f9daa894dd0650e98aa5d19a7a91a275a272dad9384c9146eae1764f49ac77",
+    "bytes": 12893
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-02.lua",
+    "sha256": "e200a98e66d4a269a43902baa9339b0f74a6bac5b4b8750a0d8c6e21824c1c83",
+    "bytes": 10844
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-03.lua",
+    "sha256": "39abfc861548596bc38ac9c21c5d712d8e75bb9e16652569afdd04798e1f9fa7",
+    "bytes": 11589
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-04.lua",
+    "sha256": "47d98022c154784a03dc0e32c69571bb79fb5edb3e10b5d9b3f6bf6e48c6e22e",
+    "bytes": 11688
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-05.lua",
+    "sha256": "92030fa471b90fbbe7fb396f6fad7113458c2f628c6efb8386d818f05b7bab40",
+    "bytes": 10641
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-06.lua",
+    "sha256": "fa7bbca835e304a8e3e428b10bed0d7f774b278d2851c383d9bd716d02c4f275",
+    "bytes": 21346
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-07.lua",
+    "sha256": "73744172f83c2e1c4446e21e95111605ae8ec985339fa429eddea0ccae6d268d",
+    "bytes": 20618
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-08.lua",
+    "sha256": "d35573a483dc18b8bfe647c4d3ab88685882f170a4e318f91e14932566f9dd05",
+    "bytes": 11182
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-09.lua",
+    "sha256": "4ef3e7125b90e2045478a78ae601b8dcb8561be1842214ad297db11cf0726c04",
+    "bytes": 19611
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-10.lua",
+    "sha256": "384b3f1ceb22a155897e1d0826f60ef1490d7e370673898446d8fafef9650817",
+    "bytes": 27360
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-11.lua",
+    "sha256": "833ed6e6924dda8fedc528519b90ac6dfad880037c36e613bce597156bacc0cc",
+    "bytes": 11882
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-12.lua",
+    "sha256": "c491bbc3906138a5357ab5956e0c21f20efd8be1f9a577f02a0d052515109da7",
+    "bytes": 11338
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-13.lua",
+    "sha256": "b60e26671318f2d2237af0a7487698b45b79239c5e0b8e93c55cc1e5d0a32804",
+    "bytes": 12226
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-14.lua",
+    "sha256": "3a03920850375099e64c5ddfa699b62d8c9e3297cefffd4c09a8a2cd778bacef",
+    "bytes": 12200
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-15.lua",
+    "sha256": "2d17920446d92ec4fea09d7ed6c310b108ccad5404bb5137d53f4adfe8e7a40e",
+    "bytes": 11616
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-16.lua",
+    "sha256": "b868dc0225bdc45484d06d21442015f737c9c4e88b0755a198db6117dfad4fc4",
+    "bytes": 12742
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-17.lua",
+    "sha256": "cab4bff98baeda8e63470c2a9af517870a762ee5a4c2b063b3ae2c6485b93304",
+    "bytes": 11210
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-18.lua",
+    "sha256": "68d86166492213521e27bec7bab3b716fe86aaf3dd675ccd885a47c071ec532f",
+    "bytes": 11724
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-19.lua",
+    "sha256": "dd4e472c8803c93f8606875d58ea31476fb29e2e89588ff12d6ea0b919be77b2",
+    "bytes": 20613
+  },
+  {
+    "file": "/base/caveexpress/maps/third-ice-20.lua",
+    "sha256": "791efc6f50bfa1e41ee698ea539f520e51f47ab679110c746116af8937b4023d",
+    "bytes": 22568
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-01.lua",
+    "sha256": "91f31381bd4418d43ace4956196c63c7855f3809ce48323fc3c9a07e23c7d556",
+    "bytes": 20072
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-02.lua",
+    "sha256": "30a860564252f9221ede019b37e8adc5333c2bd914bbfa040aaa3648f92dad17",
+    "bytes": 10824
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-03.lua",
+    "sha256": "cda9d36a667e8d67e333d58f2fd7b80d1b666d27282f9bfad3c0068e7920d5a4",
+    "bytes": 9663
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-04.lua",
+    "sha256": "5acc3c11b9b68ea5e701e7c6827f660b719281eba2be357c77903701489a3292",
+    "bytes": 9535
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-05.lua",
+    "sha256": "d3afe90ea91225e64cca352684945e50b4437b3b3c37afa6dc67fc16cda7084b",
+    "bytes": 9134
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-06.lua",
+    "sha256": "f9d189903e9821982a0887b1b586a6da4ad3bdda85ddbf5cb03db1d020c2acca",
+    "bytes": 12378
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-07.lua",
+    "sha256": "7a91946b7a764b51ac4680c1166b60cd030ee13d0c204dfac5014c90a0b04279",
+    "bytes": 11512
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-08.lua",
+    "sha256": "c5665d3bedc81e5f556724ab726a2b75b9dc81778f73019a4f0d42e8ea398318",
+    "bytes": 9819
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-09.lua",
+    "sha256": "aa4e88fa587e35dc04c650d38316da3d10096a802f0b887612b610bd4dbad374",
+    "bytes": 10457
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-10.lua",
+    "sha256": "16b5ca99088903319faf16e8333943b20d23bca7606c1df6bc551c596232776c",
+    "bytes": 55727
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-11.lua",
+    "sha256": "b8510f97b787ba9809ece8ef05936d47789efe9f260633182ea2307d8908e732",
+    "bytes": 23583
+  },
+  {
+    "file": "/base/caveexpress/maps/villages-12.lua",
+    "sha256": "8ecbeded98c5ad8ada4651f0a7ec0d55f300d8a22c33dba1f840900c9bd80bb9",
+    "bytes": 172070
+  },
+  {
+    "file": "/base/caveexpress/maps/wind-01.lua",
+    "sha256": "974fc01ec81307852ba258abe3bf791227a126e2d016ca11c4b5249c21aabf52",
+    "bytes": 21739
+  },
+  {
+    "file": "/base/caveexpress/maps/wind-02.lua",
+    "sha256": "1e45803b1caa6adc224bb699165518ff129701863f78f65cd1a725f14ba4eee4",
+    "bytes": 25247
+  },
+  {
+    "file": "/base/caveexpress/maps/wind-03.lua",
+    "sha256": "3be08a9db7d5885cff63e2ab64c17b1ea305754b8c21518bfd0a453b907d43ec",
+    "bytes": 46497
+  },
+  {
+    "file": "/base/caveexpress/maps/wind-04.lua",
+    "sha256": "677345b1af0789785962a4f837f391cf7242d6af25175fbd7d06eeac1b12cdf2",
+    "bytes": 68268
+  },
+  {
+    "file": "/base/caveexpress/pics/.gitignore",
+    "sha256": "8a4caf50bd4dfcf1e1e67c3e1f892c9bea16d917100c6b5a8009b4decd9ae749",
+    "bytes": 24
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-entity-big.png",
+    "sha256": "9b3c27d0d1689832b345d6e0c3f397dcda3be4f47f2fb422c6fc761bd98d042c",
+    "bytes": 3638778
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-entity-small.png",
+    "sha256": "104de331a6abab66aa64428367b85e7b2d4eb0b7a7182d3fd61364c4e7fdb9e0",
+    "bytes": 1052915
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-big.png",
+    "sha256": "e640e4ba8d8eb8d3526ed7507f4d16eccf60fbe130d683ec6ab6f9982bdd479b",
+    "bytes": 5317982
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-desert-big.png",
+    "sha256": "aecac5c3a94bc549f6a1f18457fc45cfbca23c8bfb4b1e536730de542bb286b8",
+    "bytes": 5292920
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-desert-small.png",
+    "sha256": "accff46f5b4f98a6a19b1236f3afc366b2943bda9f975670bed0e4dc38d9d9b9",
+    "bytes": 1516494
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-ice-big.png",
+    "sha256": "e2035a771ee625fed6c4cd6699b89c00dd3b359f9e6efc59a2cc67378d1069c2",
+    "bytes": 5450384
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-ice-small.png",
+    "sha256": "60f7624066d381946a80fc4e6497e0a18fc74d965728028292af4b10e1211f2d",
+    "bytes": 1459394
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-jungle-big.png",
+    "sha256": "1023f78991d1947d91d8cd842e14637eb12d6f5deaa9f817f1e4243b67142b55",
+    "bytes": 4762973
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-jungle-small.png",
+    "sha256": "ad424c49278910d4a48235e5eae2e8775f8484e784e21349869cea434c4ab5e8",
+    "bytes": 1346636
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-environment-small.png",
+    "sha256": "7bbacd4a40b1e8a17d27e20f213c458b5acbb114297ae89a0678e154c2592854",
+    "bytes": 1339513
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_blowing-big.png",
+    "sha256": "74fa18f216a0f7f3728430a0dd22077055b056de4fb0899f3e826f98f9e6a8ef",
+    "bytes": 4875370
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_blowing-small.png",
+    "sha256": "c492c32308a5702849ce9c6dc70d8fa5c9b43f25a388e595bde62de572ecef1c",
+    "bytes": 1462051
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_fish-big.png",
+    "sha256": "3860ab2c3188cca74a37f9ee0a5545c71b68f9e0a0182546e3c1313cc26dce69",
+    "bytes": 2676393
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_fish-small.png",
+    "sha256": "1300701a96e41c3df88bc380bb905e5518639658b12ee972942047b608cd0318",
+    "bytes": 793866
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_flying-big.png",
+    "sha256": "e1edf69571743f37c662731c37804a1037a17d6d5686d2a57aae082f6f491280",
+    "bytes": 212549
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_flying-small.png",
+    "sha256": "08008a7775e9e376880ea00412e2da3fbb7e4199826a4975791944bce76281b2",
+    "bytes": 70810
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_grandpa-big.png",
+    "sha256": "99c18cde7abf971ef24402683543565682a6067c716e229b975b285bb83e843d",
+    "bytes": 773344
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_grandpa-small.png",
+    "sha256": "2901056b6900cead20a9b6b047dc1b12676366bb2754670a750d315bef56f636",
+    "bytes": 238093
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_mammut-big.png",
+    "sha256": "9a626ab69cfd7947ed24da7018b6a0dfac6436b1be70fffd6b70cf2e3777efa2",
+    "bytes": 4188130
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_mammut-small.png",
+    "sha256": "374f81ae3afb8f002e0275037d7d02ac3ecd27ae742cfa75bdbd2f7e5fffa59d",
+    "bytes": 1220736
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_man-big.png",
+    "sha256": "508a3f90f4c021358d2bead5fdad19c98f6bd99cd85bf17ece3ad90e9c543245",
+    "bytes": 610985
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_man-small.png",
+    "sha256": "1bf1be5b8a5f19f8c9006a8f223c029fc49204bcadf3d0b2e604e822a602037a",
+    "bytes": 187536
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_walking-big.png",
+    "sha256": "cd55bba3182a0719724e7f882c1a140162295e116a5420cd89d1d38e33ee2f3b",
+    "bytes": 3628303
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_walking-small.png",
+    "sha256": "903479cd45efa39ab44407304640b8ecbe3d7f69a387741a3f43b99aa794692f",
+    "bytes": 1083848
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_woman-big.png",
+    "sha256": "684714dd42b48ee27de8efdcc11a0b224853655bd64f9147dca20583f53016d4",
+    "bytes": 442277
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-npc_woman-small.png",
+    "sha256": "722cab54a1b019a9ea3559b941b893aaa9ef0613a8a35ee35940b84d77c2e230",
+    "bytes": 135448
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-packagetarget-ice-big.png",
+    "sha256": "1901bdb2c8b87d31f081e2b3aaa17579334c6dad1a788d0eaf45e17cfa2138d5",
+    "bytes": 2712782
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-packagetarget-ice-small.png",
+    "sha256": "1dd562923fdcac5e69a0f626744d2a1bf8cff5b7d9581861ce6f701e0fcc8f05",
+    "bytes": 710688
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-packagetarget-rock-big.png",
+    "sha256": "7beabae33cd9042953a1babd0919528d940c76f909a187133d45485c631f9bb0",
+    "bytes": 2644680
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-packagetarget-rock-small.png",
+    "sha256": "e5d62ef387f2e89fd22dbbc31d21d7fe1297e656a5cff43b6bd0d44ec9eb70b5",
+    "bytes": 698560
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-big.png",
+    "sha256": "a7fd36c147553e7d48e1741e46e01debd89e95232e96ab420163cfa6e9a8c50e",
+    "bytes": 2239632
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-dead-big.png",
+    "sha256": "d5e1f66a2ff1b8f27d4a7e62dd5d18a937dc203cf63c6d303318b4f326413063",
+    "bytes": 3987541
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-dead-small.png",
+    "sha256": "fc981e185d1f685a3458d94f50013b9850b035584bbdcde448b7208c00932c28",
+    "bytes": 1561652
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-fonts-big.png",
+    "sha256": "235260803f8d34f89f178289a133822432948cc762ed87a8e78c15013531e61f",
+    "bytes": 171475
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-fonts-small.png",
+    "sha256": "2a60fd3b701f7e0d03563b1070d0235f599fae8f04488245abb7bd52d93b2b73",
+    "bytes": 117367
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-npc-mammut-big.png",
+    "sha256": "ee6a464cee7a0d0426318a44abc025117123b5e56f5382895c2a52f2d9cbc2b5",
+    "bytes": 1422744
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-npc-mammut-small.png",
+    "sha256": "14da202eaf1f4aa8eb0533c5c675160dc380fb00068bc2184a6326ebadc527f8",
+    "bytes": 652549
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-player-grandpa-big.png",
+    "sha256": "064940bb9c0d65e092489283b26199154e5aa2615e7c6586b078dd44ad7f75b0",
+    "bytes": 1199400
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-player-grandpa-small.png",
+    "sha256": "2f0099a2a746baea775a88cfd2561d6570159e5a09585ed5472ad9c8ef9d88f2",
+    "bytes": 522269
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-scene-big.png",
+    "sha256": "8487965ffd8a5721b015be1cdf428a99643aad8e37acef2417f2304be0f4dab3",
+    "bytes": 4672900
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-scene-small.png",
+    "sha256": "7efac2cdc81d2aa7e1064336c00e54f8cbe6065c2ac0fc1df20d7756f1f592de",
+    "bytes": 1516399
+  },
+  {
+    "file": "/base/caveexpress/pics/caveexpress-ui-small.png",
+    "sha256": "30e8b0689fcce4d17ae1c12a07bba343bdffea755e9048d5a40f1af93a541213",
+    "bytes": 730196
+  },
+  {
+    "file": "/base/caveexpress/pics/loading.png",
+    "sha256": "8fad099e2bae95eb6893871d5e6f2a363f1a31514db214bc0f2d6110a40f831f",
+    "bytes": 3198
+  },
+  {
+    "file": "/base/caveexpress/pics/waternoise.png",
+    "sha256": "678167f77434bcf2949c4b4b840270eb3c7e8d2f5ebb19641fcc7dc646390512",
+    "bytes": 127216
+  },
+  {
+    "file": "/base/caveexpress/random-map-rules.lua",
+    "sha256": "2fd229b3009a24fd37e5808633e33ae83337649ff1c2671d9c66c1ac21c3db43",
+    "bytes": 1846
+  },
+  {
+    "file": "/base/caveexpress/shaders/lava.frag",
+    "sha256": "f990887f6c3dfd4c1a7fddead993d890f947c87d421d6c3de3ac832e59891a4c",
+    "bytes": 1489
+  },
+  {
+    "file": "/base/caveexpress/shaders/lava.vert",
+    "sha256": "45673b1606779b2de65b5220a070f24c22e90cd62aa6e446bf3dd92dfc76ceae",
+    "bytes": 279
+  },
+  {
+    "file": "/base/caveexpress/shaders/main.frag",
+    "sha256": "8097fb32953ff612edc75c935ffb90031ff842c2b82d8ef70b1cd4a2172a0068",
+    "bytes": 1527
+  },
+  {
+    "file": "/base/caveexpress/shaders/main.vert",
+    "sha256": "dc66e30181d7188216cfb7f4149f45fadd87bc7bef2821c6c3aa778c759c7aa1",
+    "bytes": 439
+  },
+  {
+    "file": "/base/caveexpress/shaders/water.frag",
+    "sha256": "6caf7142b14304ff2047708c2c644527cfbd36e4f5b10e62a3e3c0faf09bbfcb",
+    "bytes": 572
+  },
+  {
+    "file": "/base/caveexpress/shaders/water.vert",
+    "sha256": "45673b1606779b2de65b5220a070f24c22e90cd62aa6e446bf3dd92dfc76ceae",
+    "bytes": 279
+  },
+  {
+    "file": "/base/caveexpress/sounds/cave1.ogg",
+    "sha256": "1e9d3b1aa4fb4fb374b18d7e17442b1a0e23d115d81f5ff661f9a2887bee4316",
+    "bytes": 397917
+  },
+  {
+    "file": "/base/caveexpress/sounds/cave2.ogg",
+    "sha256": "03b4461f764fa3816a7163653b79e1dd45807da70ac424dd26390902de1d97fb",
+    "bytes": 492225
+  },
+  {
+    "file": "/base/caveexpress/sounds/click.ogg",
+    "sha256": "da3e6646a494476ea4630dc545d20686e4e519d2dfef784cabe65aa6989722dd",
+    "bytes": 7981
+  },
+  {
+    "file": "/base/caveexpress/sounds/crate-hit1.ogg",
+    "sha256": "1f60b59a119ba68788c93622cc5cfd683508703f1216438578bfa833e741f4bb",
+    "bytes": 8207
+  },
+  {
+    "file": "/base/caveexpress/sounds/crate-hit2.ogg",
+    "sha256": "e2c54302a99d9be981972715be976bf7c86c515b35c93d644dccb0dca966ea02",
+    "bytes": 10458
+  },
+  {
+    "file": "/base/caveexpress/sounds/crate-hit3.ogg",
+    "sha256": "d028339bdf93506a56aae6bb8e428fb4c13931595866a483942e2d8a2f3b54f4",
+    "bytes": 11484
+  },
+  {
+    "file": "/base/caveexpress/sounds/crate-hit4.ogg",
+    "sha256": "3340820ba340966aedbcb72f15ed8846c1443f5245e677fe72ccd5aaef2f8d9c",
+    "bytes": 11353
+  },
+  {
+    "file": "/base/caveexpress/sounds/crate-hit5.ogg",
+    "sha256": "de2cc2dd2ce35fce199ac40f7434e3e97b5a773d6a762c4f09edc05a8e38deec",
+    "bytes": 14364
+  },
+  {
+    "file": "/base/caveexpress/sounds/fruit-eat.ogg",
+    "sha256": "0d3cc9c24e94a42f7d17c3420941ce4f4c76b428a5783762a007700fe52c69cf",
+    "bytes": 19250
+  },
+  {
+    "file": "/base/caveexpress/sounds/fruit-spawn.ogg",
+    "sha256": "e75ff00f65e0e7b70f36e3c7c5fe3f29f2d4b9d64ccdf467a8650bec2c7fbea5",
+    "bytes": 6087
+  },
+  {
+    "file": "/base/caveexpress/sounds/gate-move.ogg",
+    "sha256": "6d485b876188c03624821555c6e77fef1e18dac4c7febc62b4e6dc38da81835f",
+    "bytes": 16140
+  },
+  {
+    "file": "/base/caveexpress/sounds/music-1.ogg",
+    "sha256": "7450e8ddda8efdf38d2c0e55a99bc08850de8ac3c39c44f7afc8d8b117b277a5",
+    "bytes": 1438387
+  },
+  {
+    "file": "/base/caveexpress/sounds/music-2.ogg",
+    "sha256": "37c0d79403ad040bef1e7ee8e8216df07c194b9ace10f327535e1600ac9202cc",
+    "bytes": 1474288
+  },
+  {
+    "file": "/base/caveexpress/sounds/music-win.ogg",
+    "sha256": "b2006ae25742299ff4759f2441beaa8dd94f5b0dd77eaa95a8d9b98348016352",
+    "bytes": 78447
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-blowing-dazed.ogg",
+    "sha256": "c8f93959fc92f70b0db1c475b38aa35eb65d37481a00a865d590b66957e9e23c",
+    "bytes": 53284
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-blowing-idle.ogg",
+    "sha256": "7a748547941682c9e6fcc8ab386a7e633fd082a14df5c3678932ed58fc2bc340",
+    "bytes": 22798
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-board.ogg",
+    "sha256": "95894759b0806ca4cb55214deee4843a3c3256c46205d21e0d6d7a4c6a967143",
+    "bytes": 13770
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-drown.ogg",
+    "sha256": "69ba47d41abcf4a8743aad7c39f8bd97c3580cbf6945808abe4ce27a12d67899",
+    "bytes": 25037
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-swimming.ogg",
+    "sha256": "bcc0182eb30493a0bcd7befd669cc7711ff253c8d35bc9548605eca654a8d143",
+    "bytes": 81512
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-walk.ogg",
+    "sha256": "f99de944642f1dd04743f8aa8a559f1da58dd96166db75bee4a9ad40d471e53b",
+    "bytes": 52887
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-water-rescue1.ogg",
+    "sha256": "e83dbd06367d62f9ca239bc24754379451f659d19b95b9ba2e4b79df4d9623ac",
+    "bytes": 20545
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-water-rescue2.ogg",
+    "sha256": "fe55ef7d18eaf03c5cc896a8bd3f9dc823c3dd314878bc8e02f0ef16a5ebc794",
+    "bytes": 28951
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-cave-water-rescue3.ogg",
+    "sha256": "10af4fde7cfa5f1a7bf79fdca6249d7e2d47b0306cf43ee9b0500888dba70843",
+    "bytes": 25777
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-flying-flying.ogg",
+    "sha256": "c59f3a319c87c9635c587f451c62b3d3966cd7319fb97e414168f41716acf35b",
+    "bytes": 12524
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-flying-spawn.ogg",
+    "sha256": "aec4f03b2d5dffd8a0df219afcd6411361f0ec54dc6935d48bb8fba769810f70",
+    "bytes": 34152
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-mammut-attack-init.ogg",
+    "sha256": "cd58b91632f10fc9586ef4e170c5e795a33e64e8c8a4fcced50b3c7591ee03ce",
+    "bytes": 54048
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-mammut-attack.ogg",
+    "sha256": "85c9f477636f1652806ea0f8d80e9da7b6efb0637637506055c1efc79972053f",
+    "bytes": 27728
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-mammut-dazed.ogg",
+    "sha256": "b906b266a2883ef190a0be784c4a5cbce4edec21edf98f25dc82b1f11915d2f2",
+    "bytes": 66114
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-mammut-knockout.ogg",
+    "sha256": "d2368c2a2af18cf4cee0c745bb9b5a1b0b91fa52ca2711626d7c3d4e536eea3e",
+    "bytes": 57606
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-mammut-walk.ogg",
+    "sha256": "2cf79211c205f9486722aa25c6936839883595f81702f255250cd08ccf590f4d",
+    "bytes": 38254
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-walking-attack-init.ogg",
+    "sha256": "d7334644d11bd28dce399f85388b942ed5bb818b8ea359666d6abae43a003df1",
+    "bytes": 61064
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-walking-attack.ogg",
+    "sha256": "67dbb7e8b2ad45c77d95ccd4538f3a570d08e4a2d49f14a34b4b7b76bbe8cf9a",
+    "bytes": 32163
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-walking-dazed.ogg",
+    "sha256": "e546ce508f84c508734e9fc15db6dd845b00a64eb8ecdde04970aa0af3233338",
+    "bytes": 56365
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-walking-knockout.ogg",
+    "sha256": "f26aad1cf182123eb5ab1efcb79703c63d7784d9cc618f65c834e012f32a53f1",
+    "bytes": 48599
+  },
+  {
+    "file": "/base/caveexpress/sounds/npc-walking-walk.ogg",
+    "sha256": "13d16be38fcd9bbbf2cafbf63556ae334f6bf15e18c6483c9a73b1643a593e46",
+    "bytes": 42900
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-flying.ogg",
+    "sha256": "d6149df08956323d9c826fabdefb3f5a46fc6f4176edd948913ece7bed48cb1f",
+    "bytes": 56374
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-land1.ogg",
+    "sha256": "84713d93ee4c0d3e7d37e79674edc4c0dd4f62d06160b13bda02d7a7514c066a",
+    "bytes": 10248
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-land2.ogg",
+    "sha256": "8783b9717abe9f1ffa5fb8250d788c9698b718b124110c047f89af583bf00b63",
+    "bytes": 8524
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-land3.ogg",
+    "sha256": "58173f09e44862c04ad414ebc35b636eed324d8701f3a0669761c1f021ea1b7a",
+    "bytes": 8368
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-pain1.ogg",
+    "sha256": "8ae1fc30ea3210719801e674246f6b080f367e01ab70c5f3dc0aecf3927056b5",
+    "bytes": 9018
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-pain2.ogg",
+    "sha256": "348793bca17adfc97c87062d03c2dfce774920e1d3e8d22cf387788907d87a84",
+    "bytes": 8680
+  },
+  {
+    "file": "/base/caveexpress/sounds/player-pain3.ogg",
+    "sha256": "ffc0e633fbc727c170b53cfdaba47dcf8512a453ded21c03d7e4225d3230f890",
+    "bytes": 9968
+  },
+  {
+    "file": "/base/caveexpress/sounds/stone-hit.ogg",
+    "sha256": "a810e57359f612faf401ac131f3e8f06189df30c3e577d5543f8f71ef885e73a",
+    "bytes": 7908
+  },
+  {
+    "file": "/base/caveexpress/sounds/tile-geyser-active.ogg",
+    "sha256": "229c13f11d94d730394be1bae6f07dd9275f2040981ff32cc7c3097edb9d9a9e",
+    "bytes": 115021
+  },
+  {
+    "file": "/base/caveexpress/sounds/tile-packagetarget-active.ogg",
+    "sha256": "02c1c695ca8b1f130a436c5d110fb1f7c1a9de3485defa394b7c40b8c97fdebd",
+    "bytes": 62332
+  },
+  {
+    "file": "/base/caveexpress/sounds/tile-waterfall.ogg",
+    "sha256": "87924323ddfbee54409cce58b3159757bbdd80cb4f9455d604f2f6eb624722ad",
+    "bytes": 145190
+  },
+  {
+    "file": "/base/caveexpress/sounds/tree-dazed.ogg",
+    "sha256": "367b5b8bcfb86bf260a079da75968434b9e3b920987ec14889060448a53e15ce",
+    "bytes": 15787
+  },
+  {
+    "file": "/base/caveexpress/sounds/water-impact.ogg",
+    "sha256": "ff4750d814cf9461a91c8f26221a444ed757c61c4fa1c82dab9d3a51bf05a8b3",
+    "bytes": 22149
+  },
+  {
+    "file": "/base/caveexpress/sounds/water-leave.ogg",
+    "sha256": "e9cbd158d4d5bfdedcc25f25f2af2b1eec55a462b0b18f99e36722fb15efeef8",
+    "bytes": 44507
+  },
+  {
+    "file": "/base/caveexpress/sounds/water-rising.ogg",
+    "sha256": "7b21be20541fe9e1d7e99ac3f09d081fcd38e237d546b9b909217fcf0a8c1691",
+    "bytes": 257085
+  },
+  {
+    "file": "/base/caveexpress/sprites.lua",
+    "sha256": "681699e4531de62fd2d8374bf5aa9318e9d450d40947e89b70404c6fe89c09df",
+    "bytes": 35650
+  },
+  {
+    "file": "/base/caveexpress/textures/.gitignore",
+    "sha256": "8732775eee770018db7d79d035a0163015a016de17ebbf8884902ec6d1d9fcf2",
+    "bytes": 3
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-entity-big.lua",
+    "sha256": "3fcf64cf8706074c527e1f548c798c3cbdb0069268bb2b5519063aa193994c10",
+    "bytes": 44267
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-entity-small.lua",
+    "sha256": "fee1cc44a40b5bef650305b8035b441ac2e4543386af1c05746fcec3db929bad",
+    "bytes": 44343
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-big.lua",
+    "sha256": "b838dea74fe4a3a44c6f00cf56beabf98fef3557a0ecc89980b21cc9af8cd13d",
+    "bytes": 27691
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-desert-big.lua",
+    "sha256": "1baa92337c7536973de79af6ac05424c044b89e5b118322def24bf4350eb7480",
+    "bytes": 30171
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-desert-small.lua",
+    "sha256": "85bd6aa16aebc5aba4a7c90a4a509b6c26048c8f046f376c9d2aced1b8cccb3c",
+    "bytes": 30039
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-ice-big.lua",
+    "sha256": "06bd3094f35e4d61c6f9deb16ad9f5cc8e4b5511ee7d6b4201f6b9f416159dc7",
+    "bytes": 30751
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-ice-small.lua",
+    "sha256": "b3124e702d102ce56e7e49590c2144d0c4159e17b51af9887a589c3941534d7c",
+    "bytes": 30611
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-jungle-big.lua",
+    "sha256": "b564de485768eee3d58cbffd10844154b15be40321c1e2d1dd2c4d210a8d200b",
+    "bytes": 28355
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-jungle-small.lua",
+    "sha256": "0ef42bc728f3a4c553565dde9930c94bec668c62b1b7bac0052ada2d89207b33",
+    "bytes": 28247
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-environment-small.lua",
+    "sha256": "d2339d954633407e9e937e8835181d3f9af37992552e14ffbe76f3a336b29713",
+    "bytes": 27579
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_blowing-big.lua",
+    "sha256": "a77345c6c3f64fc0d30b38c2f7e5a2c5510bed049d976e49516ce15c2a281e26",
+    "bytes": 12343
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_blowing-small.lua",
+    "sha256": "40dd32fd7ac546840213bb85075f121bc1d3bebf869cb6f9c7bfd9bb2542fb54",
+    "bytes": 12343
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_fish-big.lua",
+    "sha256": "b31a8caffc25a7e396df415c7a737fbaf05eb811960b3c0e27070e430effa606",
+    "bytes": 16255
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_fish-small.lua",
+    "sha256": "1ba79dc7229fe2d3ad418437da548ab28c83c9ba7823bad653451df8faacdce6",
+    "bytes": 16143
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_flying-big.lua",
+    "sha256": "dcdd37b40761057c91c936976760f8c48622e23e5f9d014c04aada751382cc8b",
+    "bytes": 7617
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_flying-small.lua",
+    "sha256": "ab95b48f156fd3f37cfbe5175d1afaa91bdea5b8bae57ad51e0342d73e6d4ce6",
+    "bytes": 7565
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_grandpa-big.lua",
+    "sha256": "1877dfe1cbcd7e054340470bf515be76eee598e13ca1cfa8916ed531077d3f84",
+    "bytes": 21005
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_grandpa-small.lua",
+    "sha256": "c36bb8cd0759b0720faa64e44adff9bf3e242f31f068ff7b5c11b47a65442fa3",
+    "bytes": 21005
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_mammut-big.lua",
+    "sha256": "37db1bfa70bc7c22e9401d881c4e34166d2b0c543a335290ac858d1638f5cdaa",
+    "bytes": 30927
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_mammut-small.lua",
+    "sha256": "2b068b2d04bba0ca48bb3c81dbc401be22041abe5633c41a0a2b5d6c91832917",
+    "bytes": 30927
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_man-big.lua",
+    "sha256": "52c32e405eab42744ffe9250857da285622e0f6d88241e07353876d592b2df59",
+    "bytes": 18733
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_man-small.lua",
+    "sha256": "7d9cc1b9ea4dad72c651abc22f26fe931b8cc5a1a245f3097a4f9308e1fcf183",
+    "bytes": 18733
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_walking-big.lua",
+    "sha256": "b2459aff73ea7ad067db18a663adf389852e5e26f7f3d6cfbdd3fa6a0a374555",
+    "bytes": 24083
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_walking-small.lua",
+    "sha256": "2859f30796d48382913711099284a257c73303e88b362f6a4c5f9d4580d17cf8",
+    "bytes": 24083
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_woman-big.lua",
+    "sha256": "3884e5a8fd0b4c9cc3578071c1eaaa07c454432cf7c7d068d442953c9f745601",
+    "bytes": 18281
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-npc_woman-small.lua",
+    "sha256": "def14c8a25519c3affd0e38216e0590430c3fbd4ec0b79314edae069e13c4aec",
+    "bytes": 18409
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-packagetarget-ice-big.lua",
+    "sha256": "763a762c4d15b48808c5f8d5da470b7a81408aec459fbf543060168596080989",
+    "bytes": 17933
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-packagetarget-ice-small.lua",
+    "sha256": "7e72aa6a21ffc4265300d0750665d6067ba9a4f00336562c8bb54b9611771926",
+    "bytes": 17817
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-packagetarget-rock-big.lua",
+    "sha256": "38490c4621cfc0634171cad80d3a2c8594d77c720327197a6e1a9488f54eb677",
+    "bytes": 18049
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-packagetarget-rock-small.lua",
+    "sha256": "50ce3c5f1b420e60402822c2ee073dc9be25c1fed85f4f46a08c3275f9f09143",
+    "bytes": 17933
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-big.lua",
+    "sha256": "8a6286d978f851dda9a63a938c4b973d4d3c45a2452293dbf0a7b347900fee8a",
+    "bytes": 7731
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-dead-big.lua",
+    "sha256": "0e5b566da6a49924e6fade891255027c056171b65683701b38bcd6b2626840c8",
+    "bytes": 1918
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-dead-small.lua",
+    "sha256": "b179ac4ac7de62da1865d549facb84f58282ff9b19579a34fb61d69eae2362ae",
+    "bytes": 1926
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-fonts-big.lua",
+    "sha256": "067f9b219132f49fb119ab086db814b6dc3c19ea704b76a9ba0115f16116ba4f",
+    "bytes": 1339
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-fonts-small.lua",
+    "sha256": "ad0f653659f80b90700fe7973a90b88a9b66f805289362e1ab492c5e3f8618e8",
+    "bytes": 1339
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-npc-mammut-big.lua",
+    "sha256": "efafcebb5d13f01070e77407360ff76d3e3dc48f72e7b6d62b755b23553b0cf6",
+    "bytes": 1450
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-npc-mammut-small.lua",
+    "sha256": "8a8aa7448dd130e15eaf674244b1e259911eba1d993a42f4dca9fea5d694b1fe",
+    "bytes": 1460
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-player-grandpa-big.lua",
+    "sha256": "74ebf2e90b00be5cd720ee4560b58b7060e7625e0b5d4fd84c371df0c0f64d6f",
+    "bytes": 3201
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-player-grandpa-small.lua",
+    "sha256": "56de9eb6b15d3c81a05d6bc3c8cc893703b858278552c9b79472a5c15d7d195b",
+    "bytes": 3216
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-scene-big.lua",
+    "sha256": "41efa44d843cc0c32f573ad10ec337c9416cf252de6574a9eaa19dd98ae536f3",
+    "bytes": 3343
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-scene-small.lua",
+    "sha256": "b3a875953bb04fae2cb530b1f71fc8ecc4eea7bf63c9f12cd29c9a6191c57e9b",
+    "bytes": 3367
+  },
+  {
+    "file": "/base/caveexpress/textures/caveexpress-ui-small.lua",
+    "sha256": "e9ac2cbf18d923c251f338b23354c1cb09da4dcfb6b6d9c004c88aab1c9513fc",
+    "bytes": 7767
+  }
+]

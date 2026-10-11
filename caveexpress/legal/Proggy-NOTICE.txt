@@ -1,0 +1,15 @@
+// [SECTION] Default font data (ProggyClean.ttf)
+//-----------------------------------------------------------------------------
+// MIT License / Copyright (c) 2004, 2005 Tristan Grimmer
+// Download and more information at https://github.com/bluescan/proggyfonts
+//-----------------------------------------------------------------------------
+
+#if !defined(IMGUI_DISABLE_DEFAULT_FONT) && !defined(IMGUI_DISABLE_DEFAULT_FONT_BITMAP)
+// [SECTION] Default font data (ProggyForever-Regular-minimal.ttf)
+//-----------------------------------------------------------------------------
+// Based on ProggyForever: https://github.com/ocornut/proggyforever
+// MIT license / Copyright (c) 2026 Disco Hello, Copyright (c) 2019,2023 Tristan Grimmer
+//-----------------------------------------------------------------------------
+
+#if !defined(IMGUI_DISABLE_DEFAULT_FONT) && !defined(IMGUI_DISABLE_DEFAULT_FONT_VECTOR)
+See ImGui-LICENSE.txt for the full MIT licence.
