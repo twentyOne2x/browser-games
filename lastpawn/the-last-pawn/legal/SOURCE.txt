@@ -1,0 +1,52 @@
+The Last Pawn
+Upstream source: https://github.com/gbrln/the-last-pawn
+Pinned source commit: 13ac4dab9393f9e6088deba09bdb7c63e9fb95ad
+Author page: https://gbrln.github.io/the-last-pawn/
+Pinned deployed tree: b35f563789de3e82a49a1e69caa66cc54fd1dfa0 (gh-pages)
+
+This host uses files fetched from the live author page. Each original runtime
+file equals the pinned deployed Git tree byte for byte. Hashes are in DATA.md
+and author-bytes.json. The deployed JavaScript predates the pinned source's
+Logo.jsx attribute spelling fix. The only difference from a locked build of
+the pinned source is three colorInterpolationFilters/floodOpacity attribute
+pairs in that logo. build-correspondence.json records the exact comparison.
+No game rules, engine JavaScript, graphics or font bytes are changed.
+
+Our patches and additions:
+1. index.html: relative asset URLs, local-resource CSP, frame.js/frame.css,
+   persistent same-frame legal/ corner link and touch controls container.
+   The title and author credit remain. Assembly normalizes HTML line endings.
+2. Original built CSS: replace /the-last-pawn/fonts/ with ../fonts/ only.
+3. frame.js: guarded localStorage facade with memory fallback; ratio capped
+   at 2; uniformly scale original square board, pieces and border to available
+   frame area on startup, page changes and resizes; native direction/pass
+   buttons dispatch the existing keyboard input path. Handle touchend directly
+   and prevent its compatibility click, which browsers may omit after swipes.
+   Contain native button activation keys so Space cannot also pass a game turn.
+   Existing swipe/tap stay.
+   Focus the game root after clicks so keys reach the cross origin frame.
+4. frame.css: fit menus, reserve HUD and touch-control bands, retain square
+   board aspect and make the legal link visible above page transitions.
+   Fix round: all action targets are at least 44x44 CSS pixels; HUD SVGs fit
+   their button content boxes; control transforms are bounded; the touch rail
+   reserves room for Legal. Below 300px width the rail stacks above Legal and
+   frame.js reserves a larger bottom band. Legal notice links also have 44px
+   minima; notice reading keeps ordinary document scrolling.
+5. legal/: complete MIT/OFL and dependency notices, data inventory and source
+   offer. Unused public/readme assets are omitted from the hosted page.
+6. tools/assemble.py, tools/verify-provenance.py and proof/: reproducible
+   assembly, locked-source byte comparison, sandbox verification,
+   controlled rendered state witnesses and negative mutations. No runtime
+   state-setting API, service worker, remote library, telemetry or server.
+
+Source offer: obtain the complete original source from the upstream repository
+at the pinned source commit above. Our readable frame patches are served as
+../frame.js and ../frame.css; the exact HTML/CSS changes are in host.patch.
+The fix-round repo.bundle is a delta above 57d632fc55ac05d001a30e67740f3579513f3fa0.
+Restore the original PLAY-HOST-LASTPAWN-1 full bundle first, then fetch the delta.
+Together they contain upstream sources, verified author files, patches,
+assembly tool and proof. MIT imposes no corresponding-source delivery
+obligation. No GPL runtime or game data is used.
+
+This community-hosted copy is for the owner's own Play app only. It is not
+affiliated with or endorsed by Gabriel Edradan or the original project.

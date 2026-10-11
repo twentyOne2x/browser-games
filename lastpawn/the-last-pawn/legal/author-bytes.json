@@ -1,0 +1,90 @@
+[
+  {
+    "file": "index.html",
+    "bytes": 1310,
+    "sha256": "254e6d83e75f3bdfb7890330b08ee34d1d734628a29e797da923838b5c18b958",
+    "source": "https://gbrln.github.io/the-last-pawn/index.html",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "assets/index-CqnDThAh.js",
+    "bytes": 291857,
+    "sha256": "b817dd3aafa9949f4264b169f6092355cc70541685a830be3a22b2af679bdbcc",
+    "source": "https://gbrln.github.io/the-last-pawn/assets/index-CqnDThAh.js",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "assets/index-B24FUZXh.css",
+    "bytes": 62284,
+    "sha256": "47035a234c1500096c71bfd59f4cccbd99d4623025652bca0717ed99b0f11e31",
+    "source": "https://gbrln.github.io/the-last-pawn/assets/index-B24FUZXh.css",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "fonts/ConcertOne-Regular.ttf",
+    "bytes": 69996,
+    "sha256": "6815318f61c9662d9d553476965ce137185f0c790bf47fb08932b58fcc71dc2d",
+    "source": "https://gbrln.github.io/the-last-pawn/fonts/ConcertOne-Regular.ttf",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "Cursor.png",
+    "bytes": 915,
+    "sha256": "8a3a541129e1c489e9d09fe9746abbf60708939bc2e578b6281ef79cb0c319c9",
+    "source": "https://gbrln.github.io/the-last-pawn/Cursor.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "apple-touch-icon.png",
+    "bytes": 9241,
+    "sha256": "e1766b9c7d8d3191befbed10e9e761de65282a606d0cdd7e68b07bb81bc5e2cf",
+    "source": "https://gbrln.github.io/the-last-pawn/apple-touch-icon.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "favicon-16x16.png",
+    "bytes": 596,
+    "sha256": "cba22c85de485438cd71f7283da242fbbcde15ce24f98390a521c05bd9658a8d",
+    "source": "https://gbrln.github.io/the-last-pawn/favicon-16x16.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "favicon-32x32.png",
+    "bytes": 1195,
+    "sha256": "9dcf13ae4242c128ed7261b0da8100029f1cedd896fc5cf771bc679baad489a6",
+    "source": "https://gbrln.github.io/the-last-pawn/favicon-32x32.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "favicon-48x48.png",
+    "bytes": 1803,
+    "sha256": "cce32cbd098087837c8183445fa2099d6ddf3391519c8c6b3ea94510cd914dd8",
+    "source": "https://gbrln.github.io/the-last-pawn/favicon-48x48.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "favicon-64x64.png",
+    "bytes": 2586,
+    "sha256": "25cf8e1b635beb9bf4c06060463bd6b31a01c947140d4d27accfb7fa68230adb",
+    "source": "https://gbrln.github.io/the-last-pawn/favicon-64x64.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  },
+  {
+    "file": "favicon-96x96.png",
+    "bytes": 4284,
+    "sha256": "6fd11fbae8a40046550378281874ecfa17d1f1364836c4b97b4632f7746a3f51",
+    "source": "https://gbrln.github.io/the-last-pawn/favicon-96x96.png",
+    "pages_commit": "b35f563789de3e82a49a1e69caa66cc54fd1dfa0",
+    "git_bytes_equal": true
+  }
+]
